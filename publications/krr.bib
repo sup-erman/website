@@ -1,8 +1,40 @@
+@article{7fcc8392689e4c6f8bc5c8ae55eb89a2,
+  title     = "Literally better: Analyzing and improving the quality of literals",
+  abstract  = "Quality is a complicated and multifarious topic in contemporary Linked Data research. The aspect of literal quality in particular has not yet been rigorously studied. Nevertheless, analyzing and improving the quality of literals is important since literals form a substantial (one in seven statements) and crucial part of the Semantic Web. Specifically, literals allow infinite value spaces to be expressed and they provide the linguistic entry point to the LOD Cloud. We present a toolchain that builds on the LOD Laundromat data cleaning and republishing infrastructure and that allows us to analyze the quality of literals on a very large scale, using a collection of quality criteria we specify in a systematic way. We illustrate the viability of our approach by lifting out two particular aspects in which the current LOD Cloud can be immediately improved by automated means: value canonization and language tagging. Since not all quality aspects can be addressed algorithmically, we also give an overview of other problems that can be used to guide future endeavors in tooling, training, and best practice formulation.",
+  keywords  = "data observatory, Data quality, linked data, quality assessment, quality improvement",
+  author    = "Wouter Beek and Filip Ilievski and Jeremy Debattista and Stefan Schlobach and Jan Wielemaker",
+  year      = "2018",
+  doi       = "10.3233/SW-170288",
+  volume    = "9",
+  pages     = "131--150",
+  journal   = "Semantic Web",
+  issn      = "1570-0844",
+  publisher = "IOS Press",
+  number    = "1",
+}
+
+
+@article{d589859477984c67919e8ae0d5586e4c,
+  title     = "The Knowledge Graph as the Default Data Model for Machine Learning",
+  abstract  = "In modern machine learning, raw data is the pre-ferred input for our models. Where a decade ago data sci-entists were still engineering features, manually picking out the details they thought salient, they now prefer the data as raw as possible. As long as we can assume that all relevant and irrelevant information is present in the input data, we can design deep models that build up intermediate represen-tations to sift out relevant features. In some areas, however, we struggle to find this raw form of data. One such area involves heterogeneous knowledge: entities, their attributes and internal relations. The Semantic Web community has in-vested decades of work on just this problem: how to repre-sent knowledge, in various domains, in as raw and as usable a form as possible, satisfying many use cases. This work has led to the Linked Open Data Cloud, a vast and distributed knowledge graph. If we can develop methods that operate on this raw form of data–the knowledge graph–we can dispense with a great deal of ad-hoc feature engineering and train deep models end-to-end in many more domains. In this position paper, we describe current research in this area and discuss some of the promises and challenges of this approach.",
+  keywords  = "End-to-End Learning, Knowledge Graphs, Machine Learning, Position paper, Semantic Web",
+  author    = "Xander Wilcke and Peter Bloem and {De Boer}, Victor",
+  year      = "2017",
+  month     = "10",
+  doi       = "10.3233/DS-170007",
+  pages     = "1--19",
+  journal   = "Data Science",
+  issn      = "2451-8484",
+  publisher = "IOS Press",
+}
+
+
 @article{8809d20f6f33464690787510fcb71cc7,
   title    = "An integrated approach for linked data browsing",
-  abstract = "The Netherlands' Cadastre, Land Registry and Mapping Agency - in short Kadaster - collects and registers administrative and spatial data on property and the rights involved. Currently, the Kadaster is publishing its geo-spatial data assets as Linked Open Data. The Kadaster manages hundreds of datasets that describe hundreds of millions of geospatial objects, including all Dutch buildings, roads, and forests. The Kadaster exposes this large collection of data to thousands of daily users that operate from within different contexts and that need to be supported in different use cases. Therefore, Kadaster must offer diverse, yet complementary, approaches for browsing and exploring the data it publishes. Specifically, it supports the following paradigms for browsing and exploring its data assets: hierarchical browsing, graph navigation, faceted browsing, and tabular browsing. These paradigms are useful for different tasks, cover different use cases, and are implemented by reusing and/or developing Open Source libraries and applications.",
+  abstract = "The Netherlands' Cadastre, Land Registry and Mapping Agency – in short Kadaster – collects and registers administrative and spatial data on property and the rights involved. Currently, the Kadaster is publishing its geo-spatial data assets as Linked Open Data. The Kadaster manages hundreds of datasets that describe hundreds of millions of geospatial objects, including all Dutch buildings, roads, and forests. The Kadaster exposes this large collection of data to thousands of daily users that operate from within different contexts and that need to be supported in different use cases. Therefore, Kadaster must offer diverse, yet complementary, approaches for browsing and exploring the data it publishes. Specifically, it supports the following paradigms for browsing and exploring its data assets: hierarchical browsing, graph navigation, faceted browsing, and tabular browsing. These paradigms are useful for different tasks, cover different use cases, and are implemented by reusing and/or developing Open Source libraries and applications.",
   keywords = "Data browsing, Faceted browsing, Geo-spatial data, Graph navigation, Linked open data",
   author   = "W. Beek and E. Folmer",
+  note     = "FOSS4G-Europe 2017 – Academic Track, 18–22 July 2017, Marne La Vallée, France",
   year     = "2017",
   month    = "7",
   doi      = "10.5194/isprs-archives-XLII-4-W2-35-2017",
@@ -72,6 +104,29 @@
 }
 
 
+@misc{163c47c85bee47e38861a09ed5a1253c,
+  title  = "A linked open data based system for flexible delineation of geographic areas",
+  author = "A. Khalili and {van den Besselaar}, P.A.A. and {de Graaf}, K.A.",
+  year   = "2017",
+}
+
+
+@inbook{4c7885c87ca2424b84f30e0ce5fbf6b0,
+  title     = "An empirical study on how the distribution of ontologies affects reasoning on the web",
+  abstract  = "The Web of Data is an inherently distributed environment where ontologies are located in (physically) remote locations and are subject to constant changes. Reasoning is affected by these changes, but the extent and significance of this dependency is not well-studied yet. To address this problem, this paper presents an empirical study on how the distribution of ontological data on the Web affects the outcome of reasoning. We study (1) to what degree datasets depend on external ontologies and (2) to what extent the inclusion of additional ontological information via IRI de-referencing and the owl:imports directive to the input datasets leads to new derivations. We based our study on many RDF datasets and on a large collection of RDFa, and JSON-LD data embedded into HTML pages. We used both Jena and Pellet in order to evaluate the results under different semantics. Our results indicate that remote ontologies are often crucial to obtain non-trivial derivations. Unfortunately, in many cases IRIs were broken and the owl:imports is rarely used. Furthermore, in some cases the inclusion of remote knowledge either did not yield any additional derivation or led to errors. Despite these cases, in general, we found that inclusion of additional ontologies via IRIs de-referencing and owl:imports directive is very effective for producing new derivations. This indicates that the two W3C standards for fetching remote ontologies have found their way into practice.",
+  keywords  = "JSON-LD, OWL, RDF, RDFa, Reasoning, Web of data",
+  author    = "Bazoobandi, {Hamid R.} and Jacopo Urbani and {van Harmelen}, Frank and Henri Bal",
+  year      = "2017",
+  doi       = "10.1007/978-3-319-68288-4_5",
+  isbn      = "9783319682877",
+  volume    = "10587 LNCS",
+  series    = "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  publisher = "Springer/Verlag",
+  pages     = "69--86",
+  booktitle = "The Semantic Web – ISWC 2017 - 16th International Semantic Web Conference, Proceedings",
+}
+
+
 @book{fcb11c81af894034a33d5a6d705166b0,
   title     = "ARIADNE: Final Report on Data Mining",
   abstract  = "Recent years have witnessed a growing interest from archaeological communities in Linked Data. ARIADNE, the AdvancedResearch Infrastructure for Archaeological Data set Networking in Europe, facilitates a central web portal that providesaccess to archaeological data from various sources. Parts of these data have been being published as Linked Data, andare currently available in the Linked Open Data cloud. With it, the nature of these data has shifted from unstructuredto structured. This presents new opportunities for data mining. While general-purpose software exists, recent studieshave revealed the importance of two domain-specific requirements: 1) produce interpretable results, and 2) allow trustin the underlying model. In this work, we investigate to what extend interpretable data mining can contribute to theunderstanding of linked archaeological data. A case study washeld, which involved the mining of semantic association rules over data sets of increasing levels of knowledgegranularity, followed by the qualitative evaluation of these rules by domain experts. Experiments have shown that theapproach yielded mostly plausible patterns, some of which were seen as highly relevant.",
@@ -99,6 +154,36 @@
 }
 
 
+@inbook{db25399349794a8f86dce8ed0ec8ac69,
+  title     = "Constructing disease-centric knowledge graphs: A case study for depression (short version)",
+  abstract  = "In this paper we show how we used multiple large knowledge sources to construct a much smaller knowledge graph that is focussed on single disease (in our case major depression disorder). Such a disease-centric knowledge-graph makes it more convenient for doctors (in our case psychiatric doctors) to explore the relationship among various knowledge resources and to answer realistic clinical queries.",
+  author    = "Zhisheng Huang and Jie Yang and {van Harmelen}, Frank and Qing Hu",
+  year      = "2017",
+  doi       = "10.1007/978-3-319-59758-4_5",
+  isbn      = "9783319597577",
+  volume    = "10259 LNAI",
+  series    = "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  publisher = "Springer/Verlag",
+  pages     = "48--52",
+  booktitle = "Artificial Intelligence in Medicine - 16th Conference on Artificial Intelligence in Medicine, AIME 2017, Proceedings",
+}
+
+
+@inbook{0a3a2ec2685448339a2ca93455e0e36f,
+  title     = "Constructing Knowledge Graphs of Depression",
+  abstract  = "Knowledge Graphs have been shown to be useful tools for integrating multiple medical knowledge sources, and to support such tasks as medical decision making, literature retrieval, determining healthcare quality indicators, co-morbodity analysis and many others. A large number of medical knowledge sources have by now been converted to knowledge graphs, covering everything from drugs to trials and from vocabularies to gene-disease associations. Such knowledge graphs have typically been generic, covering very large areas of medicine. (e.g. all of internal medicine, or arbitrary drugs, arbitrary trials, etc.). This has had the effect that such knowledge graphs become prohibitively large, hampering both efficiency for machines and usability for people. In this paper we show how we use multiple large knowledge sources to construct a much smaller knowledge graph that is focussed on single disease (in our case major depression disorder). Such a disease-centric knowledge-graph makes it more convenient for doctors (in our case psychiatric doctors) to explore the relationship among various knowledge resources and to answer realistic clinical queries (This paper is an extended version of [1].).",
+  author    = "Zhisheng Huang and Jie Yang and {van Harmelen}, Frank and Qing Hu",
+  year      = "2017",
+  doi       = "10.1007/978-3-319-69182-4_16",
+  isbn      = "9783319691817",
+  volume    = "10594 LNCS",
+  series    = "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  publisher = "Springer/Verlag",
+  pages     = "149--161",
+  booktitle = "Health Information Science - 6th International Conference, HIS 2017, Proceedings",
+}
+
+
 @inbook{f0a401b2137b45e5b2d32d0149c3160a,
   title     = "Detecting New Evidences for Evidence-Based Medical Guidelines with Journal Filtering",
   abstract  = "Evidence-based medical guidelines are systematically developed recommendations with the aim to assist practitioner and patients decisions regarding appropriate health care for specific clinical circumstances, and are based on evidence described in medical research papers. Evidence-based medical guidelines should be regularly updated, such that they can serve medical practice using based on the latest medical research evidence. A usual approach to detecting new evidences is to use a set of terms which appear in a guideline conclusion or recommendation and create queries over a bio-medical search engine such as PubMed with a ranking over a selected subset of terms to search for relevant new research papers. However, the sizes of the found relevant papers are usually very large (i.e. over a few hundreds, even thousands), which results in a low precision of the search. This makes it for medical professionals quite difficult to find which papers are really interesting and useful for updating the guideline. We propose a filtering step to decrease the number of papers. More exactly we are interested in the question if we can reduce the number of papers with no or a slightly lower recall. A plausible approach is to introduce journal filtering, such that evidence appear in those top journals are preferred. In this paper, we extend our approach of detecting new papers for updating evidence-based medical guideline with a journal filtering step. We report our experiments and show that (1) the method with journal filtering can indeed gain a large reduction of the number of papers (69.73%) with a slightly lower recall (14.29%); (2) we show that the journal filtering method keeps relatively more high level evidence papers (category A) and removes all the low level evidence papers (category D).",
@@ -115,11 +200,25 @@
 }
 
 
+@misc{1db5e48c46a24fdfbe5f7395eeeaccec,
+  title  = "Enriching Scientometrics with Linked Data: the SMS platform",
+  author = "O.A.K. Idrissou and A. Khalili and {van den Besselaar}, P.A.A. and {de Graaf}, K.A. and A. Loizou and {van Harmelen}, Frank",
+  year   = "2017",
+}
+
+
 @inbook{e64aef34c4ba4b16841be18a17276f21,
   title     = "Evaluating research portfolios, a method and a case",
   author    = "{van den Besselaar}, P.A.A. and A. Khalili and Ulf Sandstrom",
   year      = "2017",
   booktitle = "Proceedings STI 2017 conference",
+}
+
+
+@misc{a6ba9f04e8e24b2c955199260697e8d0,
+  title  = "Evaluating research portfolio's through ontology based text annotation",
+  author = "{van den Besselaar}, P.A.A. and A. Khalili and Ulf Sandstrom",
+  year   = "2017",
 }
 
 
@@ -152,6 +251,13 @@
 }
 
 
+@misc{68a3538d56a949669e47b156b3b5b212,
+  title  = "From university rankings to portfolio analysis and evaluation",
+  author = "{van den Besselaar}, P.A.A. and A. Khalili and Ulf Sandstrom",
+  year   = "2017",
+}
+
+
 @inbook{68afba2d8f25485fa3ade85bf8a66553,
   title     = "Generalizing the Detection of Clinical Guideline Interactions Enhanced with LOD",
   author    = "{Carretta Zamborlini}, Veruska and Rinke Hoekstra and {Da Silveira}, Marcos and Cedric Pruski and {ten Teije}, Annette and {van Harmelen}, Frank",
@@ -162,6 +268,13 @@
   editor    = "Ana Fred and Hugo Gamboa",
   booktitle = "Biomedical Engineering Systems and Technologies: 9th International Joint Conference, BIOSTEC 2016, Rome, Italy, February 21--23, 2016, Revised Selected Papers",
   publisher = "Springer International Publishing Switzerland",
+}
+
+
+@misc{a48b60672af940c4a911566a973f08aa,
+  title  = "Improving social research using heterogeneous data: the SMS platform",
+  author = "{van den Besselaar}, P.A.A. and A. Khalili and {van Harmelen}, Frank and {de Graaf}, K.A.",
+  year   = "2017",
 }
 
 
@@ -187,11 +300,35 @@
 }
 
 
+@misc{5f262cbfd4654e7da5153fc5a03cdc6a,
+  title    = "Knowledge Representation for Clinical Guidelines: with applications to Multimorbidity Analysis and Literature Search",
+  keywords = "Knowledge Representation, Semantic Web, Clinical Guidelines, Multimorbidity, Comorbidity, Guideline Update",
+  author   = "{Carretta Zamborlini}, V.",
+  year     = "2017",
+  school   = "Vrije Universiteit Amsterdam",
+}
+
+
 @inbook{d84639693b2349e3b8afcf9dacfd35d0,
   title     = "Linked Data Reactor: Towards Data-aware User Interfaces",
   author    = "Ali Khalili and {de Graaf}, {Klaas Andries}",
   year      = "2017",
   booktitle = "SEMANTiCS 2017",
+}
+
+
+@inbook{488e681637ff47f4bf544f43c457ec82,
+  title     = "LOD-a-lot: A queryable dump of the LOD cloud",
+  abstract  = "LOD-a-lot democratizes access to the Linked Open Data (LOD) Cloud by serving more than 28 billion unique triples from 650, K datasets over a single self-indexed file. This corpus can be queried online with a sustainable Linked Data Fragments interface, or downloaded and consumed locally: LOD-a-lot is easy to deploy and demands affordable resources (524, GB of disk space and 15.7, GB of RAM), enabling Web-scale repeatable experimentation and research even by standard laptops.",
+  author    = "Fernández, {Javier D.} and Wouter Beek and Martínez-Prieto, {Miguel A.} and Mario Arias",
+  year      = "2017",
+  doi       = "10.1007/978-3-319-68204-4_7",
+  isbn      = "9783319682037",
+  volume    = "10588 LNCS",
+  series    = "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  publisher = "Springer/Verlag",
+  pages     = "75--83",
+  booktitle = "The Semantic Web – ISWC 2017 - 16th International Semantic Web Conference, Proceedings",
 }
 
 
@@ -210,12 +347,59 @@
 }
 
 
+@misc{c38c16616d624e5799d49a5241a73f30,
+  title    = "Logics for causal inference under uncertainty",
+  keywords = "causality, causal discovery, probabilistic logics, structure learning, probabilistic soft logic",
+  author   = "S. Magliacane",
+  year     = "2017",
+  school   = "Vrije Universiteit Amsterdam",
+}
+
+
+@book{1539ee1ae92840a1beb2609e405321d0,
+  title     = "Opening the SMS platform to users: Deliverable D7.2 - RISIS project",
+  abstract  = "In this deliverable we describe the SMS (Semantically Mapping Science) data integration platform (http://sms.risis.eu), the technical core within the RISIS data infrastructure for Science, Technology and Innovation Studies (STI). The aim of the platform is to produce richer data to be used in social research – through the integration of heterogeneous datasets, ranging from tabular statistical data to unstructured data found on the Web. We outline the platform’s architecture and functions. There arealso some example use cases mentioned to show how the platform enables data integration in practice.",
+  author    = "{van den Besselaar}, P.A.A. and A. Khalili and {de Graaf}, K.A. and O.A.K. Idrissou and {van Harmelen}, Frank",
+  year      = "2017",
+  publisher = "RISIS",
+}
+
+
+@book{beaec0ed935045dba04a24fd27207fae,
+  title     = "Report on the Finalization of Geocoding and Geo-clustering Activities and Preliminary Analysis of European Innovation Dynamics: RISIS deliverable D9.3",
+  author    = "Eran Leck and Daphne Getz and A. Khalili and {van den Besselaar}, P.A.A. and et. al.",
+  year      = "2017",
+  publisher = "RISIS",
+}
+
+
 @inbook{1ea4f94b25b648a69d0416b2d937605c,
   title     = "Semantically Mapping Science (SMS) Platform",
   author    = "Ali Khalili and {van den Besselaar}, Peter and {Al Koudous}, Idrissou and {de Graaf}, {Klaas Andries} and {van Harmelen}, Frank",
   year      = "2017",
   pages     = "1--6",
   booktitle = "SemSci 2017: Enabling Open Semantic Science",
+  publisher = "CEUR Workshop Proceedings",
+}
+
+
+@misc{61aa29f69da34a6f832f7f20ba0ac5ea,
+  title  = "SMS: a platform for linking and enriching data for science and innovation studies: An example",
+  author = "{van den Besselaar}, P.A.A. and A. Khalili and O.A.K. Idrissou and {de Graaf}, K.A. and {van Harmelen}, Frank",
+  year   = "2017",
+}
+
+
+@article{60914ca9ba2543df8bf408a89914faa8,
+  title     = "Understanding knowledge networks",
+  abstract  = "The emergence of Linked Open Data (LOD) enables data on the Web to have a well defined structure and thereby to represent and in? terlink information from different sources and application areas. This web of data is a complex socially created network, where concepts and rela? tions are connected in intricate ways, collectively forming a network of knowledge. These data are published in a decentralized fashion and they stem from different sources, have different types of relationships, and use different terminologies, ontologies and meta models. While this so-called LOD cloud has become a very valuable resource, we know only very little about the general structural properties of the contained data, which im? pedes our ability to use and organize this resource in an efficient and accu? rate manner. The objective of this paper is to provide a basic understand? ing of LOD from the point of view of network structures. We analyze LOD networks with respect to fundamental network properties such as degree distribution and clustering. Using these metrics, we compare our results to non-LOD networks, such as email, Web, and protein networks, that have been reported in the literature. Our results show that the LOD cloud ex? hibits a broad variety of different network structures, consistent with the diversity found in other types of networks.",
+  keywords  = "Knowledge network, Linked data, Network structure",
+  author    = "Krishna Mangaladevi and Wouter Beek and Tobias Kuhn",
+  year      = "2017",
+  volume    = "1946",
+  pages     = "38--49",
+  journal   = "CEUR workshop proceedings",
+  issn      = "1613-0073",
   publisher = "CEUR Workshop Proceedings",
 }
 
@@ -396,7 +580,6 @@
 
 @inbook{4c8c9c9bb95a4376a43d9eaa67f7db00,
   title     = "Powerful and efficient bulk shortest-path queries: Cypher language extension & Giraph implementation",
-  abstract  = "© 2016 Copyright held by the owner/author(s).Shortest-path computation is central to many graph queries. However, current graph-processing platforms tend to offer limited solutions, typically supporting only single-source and all-pairs shortest path algorithms, with poor filtering options. In this paper we address the shortest-path computation problem in two complementary directions. First, we introduce a restrictable, top-N {"}bulk{"} shortest-weighted-paths operator in the Cypher graph query language, that subsumes all previously known shortest path variants. In addition to ease of use, both in terms of short notation and more robust performance thanks to guaranteed amenability to pruning, this operator supports calculated path weights, as well as filtering on the path edges and vertices. Second, we provide a scalable algorithm for the parallel implementation of this top-N operator on Giraph, a graph-processing system based on the Bulk Synchronous Parallel (BSP) model. We present an initial evaluation on a number of queries executed over the LDBC-SNB dataset.",
   author    = "Peter Rutgers and Claudio Martella and Spyros Voulgaris and Peter Boncz",
   year      = "2016",
   month     = "6",
@@ -619,18 +802,23 @@
 
 @inbook{44bee764c491494189957818fb36f123,
   title     = "grlc Makes GitHub Taste Like Linked Data APIs",
+  abstract  = "Building Web APIs on top of SPARQL endpoints is becoming common practice. It enables universal access to the integration favorable data space of Linked Data. In the majority of use cases, users cannot be expected to learn SPARQL to query this data space. Web APIs are the most common way to enable programmatic access to data on the Web. However, the implementation of Web APIs around Linked Data is often a tedious and repetitive process. Recent work speeds up this Linked Data API construction by wrapping it around SPARQL queries, which carry out the API functionality under the hood. Inspired by this development, in this paper we present grlc, a lightweight server that takes SPARQL queries curated in GitHub repositories, and translates them to Linked Data APIs on the fly.",
+  keywords  = "Git, GitHub, Linked data APIs, RESTFul, SPARQL",
   author    = "{Merono Penuela}, A. and R.J. Hoekstra",
   year      = "2016",
-  volume    = "9989",
-  pages     = "342--353",
-  booktitle = "The Semantic Web – ESWC 2016 Satellite Events",
+  doi       = "10.1007/978-3-319-47602-5_48",
+  isbn      = "9783319476018",
+  volume    = "9989 LNCS",
+  series    = "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
   publisher = "Springer/Verlag",
+  pages     = "342--353",
+  booktitle = "The Semantic Web - ESWC 2016 Satellite Events, Revised Selected Papers",
 }
 
 
 @inbook{84bd5d6049614c52b3d233eeff1f1c76,
   title     = "How Good Are Query Optimizers, Really?",
-  abstract  = "Finding a good join order is crucial for query performance. In this paper, we introduce the Join Order Benchmark (JOB) and experimentally revisit the main components in the classic query optimizer architecture using a complex, real-world data set and realistic multi-join queries. We investigate the quality of industrial-strength cardinality estimators and find that all estimators routinely produce large errors. We further show that while estimates are essential for finding a good join order, query performance is unsatisfactory if the query engine relies too heavily on these estimates. Using another set of experiments that measure the impact of the cost model, we find that it has much less influence on query performance than the cardinality estimates. Finally, we investigate plan enumeration techniques comparing exhaustive dynamic programming with heuristic algorithms and find that exhaustive enumeration improves performance despite the sub-optimal cardinality estimates. © 2015 VLDB.",
+  abstract  = "Finding a good join order is crucial for query performance. In this paper, we introduce the Join Order Benchmark (JOB) and experimentally revisit the main components in the classic query optimizer architecture using a complex, real-world data set and realistic multi-join queries. We investigate the quality of industrial-strength cardinality estimators and find that all estimators routinely produce large errors. We further show that while estimates are essential for finding a good join order, query performance is unsatisfactory if the query engine relies too heavily on these estimates. Using another set of experiments that measure the impact of the cost model, we find that it has much less influence on query performance than the cardinality estimates. Finally, we investigate plan enumeration techniques comparing exhaustive dynamic programming with heuristic algorithms and find that exhaustive enumeration improves performance despite the sub-optimal cardinality estimates.",
   author    = "Viktor Leis and Andrey Gubichev and Atanas Mirchev and Peter Boncz and Alfons Kemper and Thomas Neumann",
   year      = "2016",
   volume    = "9",
@@ -729,7 +917,7 @@
 }
 
 
-@inbook{0ed7c14e097048beb1c5b0e835f2bc0e,
+@inbook{f61941f98374409c990fb5f25443b77d,
   title     = "LOTUS: Adaptive text search for big linked data",
   abstract  = "Finding relevant resources on the Semantic Web today is a dirty job: no centralized query service exists and the support for natural language access is limited. We present LOTUS: Linked Open Text Un- leaShed, a text-based entry point to a massive subset of today’s Linked Open Data Cloud. Recognizing the use case dependency of resource re- trieval, LOTUS provides an adaptive framework in which a set of match- ing and ranking algorithms are made available. Researchers and develop- ers are able to tune their own LOTUS index by choosing and combining the matching and ranking algorithms that suit their use case best. In this paper, we explain the LOTUS approach, its implementation and the functionality it provides. We demonstrate the ease with which LOTUS enables text-based resource retrieval at an unprecedented scale in con- crete and domain-specific scenarios. Finally, we provide evidence for the scalability of LOTUS with respect to the LOD Laundromat, the largest collection of easily accessible Linked Open Data currently available.",
   keywords  = "Findability, Scalable data management, Semantic search, Text indexing",
@@ -741,14 +929,6 @@
   publisher = "Springer/Verlag",
   pages     = "470--485",
   booktitle = "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-}
-
-
-@inbook{f61941f98374409c990fb5f25443b77d,
-  title     = "LOTUS: Adaptive Text Search for Big Linked Data",
-  author    = "F. Ilievski and W.G.J. Beek and {van Erp}, M.G.J. and L.J. Rietveld and K.S. Schlobach",
-  year      = "2016",
-  booktitle = "ESWC",
 }
 
 
@@ -1390,6 +1570,15 @@
 }
 
 
+@misc{f2949c1c28a4488bb10bcdf21d5fed4a,
+  title   = "Ontology-based Software Architecture Documentation",
+  author  = "{de Graaf}, K.A.",
+  note    = "Exacte Wetenschappen Naam instelling promotie: VU University Naam instelling onderzoek: VU University",
+  year    = "2015",
+  school  = "Vrije Universiteit Amsterdam",
+}
+
+
 @inbook{3436a96fc8344c3994c9bc2da24e972e,
   title     = "Open Source Dutch WordNet",
   author    = "M.C. Postma and P.T.J.M. Vossen",
@@ -1986,7 +2175,7 @@
 
 @article{91cb952159614b12b8d6ff7fff464f22,
   title     = "Reports on the 2013 AAAI fall symposium series",
-  abstract  = "The Association for the Advancement of Artificial Intelligence was pleased to present the 2013 Fall Symposium Series, held Friday through Sunday, November 15-17, at the Westin Arlington Gateway in Arlington, Virginia, near Washington, D.C., USA. The titles of the five symposia were Discovery Informatics: AI Takes a Science- Centered View on Big Data (FS-13-01); How Should Intelligence Be Abstracted in AI Research: MDPs, Symbolic Representations, Artificial Neural Networks, or - ? (FS-13-02); Integrated Cognition (FS-13-03); Semantics for Big Data (FS- 13-04); and Social Networks and Social Contagion: Web Analytics and Computational Social Science (FS-13-05). The highlights of each symposium are presented in this report. Copyright © 2014, Association for the Advancement of Artificial Intelligence. All rights reserved.",
+  abstract  = "The Association for the Advancement of Artificial Intelligence was pleased to present the 2013 Fall Symposium Series, held Friday through Sunday, November 15-17, at the Westin Arlington Gateway in Arlington, Virginia, near Washington, D.C., USA. The titles of the five symposia were Discovery Informatics: AI Takes a Science- Centered View on Big Data (FS-13-01); How Should Intelligence Be Abstracted in AI Research: MDPs, Symbolic Representations, Artificial Neural Networks, or - ? (FS-13-02); Integrated Cognition (FS-13-03); Semantics for Big Data (FS- 13-04); and Social Networks and Social Contagion: Web Analytics and Computational Social Science (FS-13-05). The highlights of each symposium are presented in this report.",
   author    = "Burns, {Gully A P C} and Yolanda Gil and Natalia Villanueva-Rosales and Yan Liu and Sebastian Risi and Joel Lehman and Jeff Clune and Christian Lebiere and Rosenbloom, {Paul S.} and {Van Harmelen}, Frank and Hendler, {James A.} and Pascal Hitzler and Krzysztof Janowicz and Samarth Swarup",
   year      = "2014",
   volume    = "35",
@@ -2181,6 +2370,24 @@
   author    = "L.J. Rietveld and R.J. Hoekstra",
   year      = "2014",
   booktitle = "Proceedings of the 19th International Conference on Knowledge Engineering and Knowledge Management (EKAW 2014)",
+}
+
+
+@article{adb2dd43a92a42b28864166631fb7a95,
+  title     = "Automated generation of patient-tailored electronic care pathways by translating computer-interpretable guidelines into hierarchical task networks",
+  abstract  = "OBJECTIVE: This paper describes a methodology which enables computer-aided support for the planning, visualization and execution of personalized patient treatments in a specific healthcare process, taking into account complex temporal constraints and the allocation of institutional resources. To this end, a translation from a time-annotated computer-interpretable guideline (CIG) model of a clinical protocol into a temporal hierarchical task network (HTN) planning domain is presented.MATERIALS AND METHODS: The proposed method uses a knowledge-driven reasoning process to translate knowledge previously described in a CIG into a corresponding HTN Planning and Scheduling domain, taking advantage of HTNs known ability to (i) dynamically cope with temporal and resource constraints, and (ii) automatically generate customized plans. The proposed method, focusing on the representation of temporal knowledge and based on the identification of workflow and temporal patterns in a CIG, makes it possible to automatically generate time-annotated and resource-based care pathways tailored to the needs of any possible patient profile.RESULTS: The proposed translation is illustrated through a case study based on a 70 pages long clinical protocol to manage Hodgkin's disease, developed by the Spanish Society of Pediatric Oncology. We show that an HTN planning domain can be generated from the corresponding specification of the protocol in the Asbru language, providing a running example of this translation. Furthermore, the correctness of the translation is checked and also the management of ten different types of temporal patterns represented in the protocol. By interpreting the automatically generated domain with a state-of-art HTN planner, a time-annotated care pathway is automatically obtained, customized for the patient's and institutional needs. The generated care pathway can then be used by clinicians to plan and manage the patients long-term care.CONCLUSION: The described methodology makes it possible to automatically generate patient-tailored care pathways, leveraging an incremental knowledge-driven engineering process that starts from the expert knowledge of medical professionals. The presented approach makes the most of the strengths inherent in both CIG languages and HTN planning and scheduling techniques: for the former, knowledge acquisition and representation of the original clinical protocol, and for the latter, knowledge reasoning capabilities and an ability to deal with complex temporal and resource constraints. Moreover, the proposed approach provides immediate access to technologies such as business process management (BPM) tools, which are increasingly being used to support healthcare processes.",
+  keywords  = "Antineoplastic Protocols, Artificial Intelligence, Critical Pathways, Decision Making, Computer-Assisted, Hodgkin Disease, Humans, Long-Term Care, Patient Care Planning, Pediatrics, Practice Guidelines as Topic, Workflow, Journal Article, Research Support, Non-U.S. Gov't",
+  author    = "A. González-Ferrer and {ten Teije}, A.C.M. and J. Fdez-Olivares and K. Milian",
+  note      = "Copyright © 2012 Elsevier B.V. All rights reserved.",
+  year      = "2013",
+  month     = "2",
+  doi       = "10.1016/j.artmed.2012.08.008",
+  volume    = "57",
+  pages     = "91--109",
+  journal   = "Artificial Intelligence in Medicine",
+  issn      = "0933-3657",
+  publisher = "Elsevier",
+  number    = "2",
 }
 
 
@@ -3065,18 +3272,6 @@
   journal   = "IFIP",
   issn      = "1571-5736",
   publisher = "Springer New York",
-}
-
-
-@article{adb2dd43a92a42b28864166631fb7a95,
-  title     = "Automated generation of patient-tailored electronic care pathways by translating computer-interpretable guidelines into hierarchical task networks",
-  abstract  = "Objective: This paper describes a methodology which enables computer-aided support for the planning, visualization and execution of personalized patient treatments in a specific healthcare process, taking into account complex temporal constraints and the allocation of institutional resources. To this end, a translation from a time-annotated computer-interpretable guideline (CIG) model of a clinical protocol into a temporal hierarchical task network (HTN) planning domain is presented. Materials and methods: The proposed method uses a knowledge-driven reasoning process to translate knowledge previously described in a CIG into a corresponding HTN Planning and Scheduling domain, taking advantage of HTNs known ability to (i) dynamically cope with temporal and resource constraints, and (ii) automatically generate customized plans. The proposed method, focusing on the representation of temporal knowledge and based on the identification of workflow and temporal patterns in a CIG, makes it possible to automatically generate time-annotated and resource-based care pathways tailored to the needs of any possible patient profile. Results: The proposed translation is illustrated through a case study based on a 70 pages long clinical protocol to manage Hodgkin's disease, developed by the Spanish Society of Pediatric Oncology. We show that an HTN planning domain can be generated from the corresponding specification of the protocol in the Asbru language, providing a running example of this translation. Furthermore, the correctness of the translation is checked and also the management of ten different types of temporal patterns represented in the protocol. By interpreting the automatically generated domain with a state-of-art HTN planner, a time-annotated care pathway is automatically obtained, customized for the patient's and institutional needs. The generated care pathway can then be used by clinicians to plan and manage the patients long-term care. Conclusion: The described methodology makes it possible to automatically generate patient-tailored care pathways, leveraging an incremental knowledge-driven engineering process that starts from the expert knowledge of medical professionals. The presented approach makes the most of the strengths inherent in both CIG languages and HTN planning and scheduling techniques: for the former, knowledge acquisition and representation of the original clinical protocol, and for the latter, knowledge reasoning capabilities and an ability to deal with complex temporal and resource constraints. Moreover, the proposed approach provides immediate access to technologies such as business process management (BPM) tools, which are increasingly being used to support healthcare processes. © 2012 Elsevier B.V.",
-  author    = "A. González-Ferrer and {ten Teije}, A.C.M. and J. Fdez-Olivares and K. Milian",
-  year      = "2012",
-  doi       = "10.1016/j.artmed.2012.08.008",
-  journal   = "Artificial Intelligence in Medicine",
-  issn      = "0933-3657",
-  publisher = "Elsevier",
 }
 
 
@@ -4432,7 +4627,7 @@
 
 @inbook{fe98236aa398497c952b466badd6df3f,
   title     = "A workbench for anytime reasoning by ontology approximation: With a case study on instance retrieval",
-  abstract  = "Reasoning is computationally expensive. This is especially true for reasoning on the Web, where data sets are very large and often described by complex terminologies. One way to reduce this complexity is through the use of approximate reasoning methods which trade one computational property (eg. quality of answers) for others, such as time and memory. Previous research into approximation on the Semantic Web has been rather ad-hoc, and we propose a framework for systematically studying such methods. We developed a workbench which allows the structured combination of different algorithms for approximation, reasoning and measuring in one single framework. As a case-study we investigate an incremental method for instance retrieval through ontology approximation, and we use our workbench to study the computational behaviour of several approximation strategies. © 2011 The authors and IOS Press. All rights reserved.",
+  abstract  = "Reasoning is computationally expensive. This is especially true for reasoning on the Web, where data sets are very large and often described by complex terminologies. One way to reduce this complexity is through the use of approximate reasoning methods which trade one computational property (eg. quality of answers) for others, such as time and memory. Previous research into approximation on the Semantic Web has been rather ad-hoc, and we propose a framework for systematically studying such methods. We developed a workbench which allows the structured combination of different algorithms for approximation, reasoning and measuring in one single framework. As a case-study we investigate an incremental method for instance retrieval through ontology approximation, and we use our workbench to study the computational behaviour of several approximation strategies.",
   keywords  = "Anytime Reasoning, Approximate Reasoning, Description Logics, Ontologies, Semantic Web",
   author    = "Gaston Tagni and Stefan Schlobach and {Ten Teije}, Annette and {Van Harmelen}, Frank and Giorgios Karafotias",
   year      = "2010",
@@ -4512,7 +4707,7 @@
 
 @inbook{3c6ae4a4742a48c89d720d87edebe3f6,
   title     = "Identifying disease-centric subdomains in very large medical ontologies: A case-study on breast cancer concepts in SNOMED CT. Or: Finding 2500 out of 300.000",
-  abstract  = "Modern medical vocabularies can contain up to hundreds of thousands of concepts. In any particular use-case only a small fraction of these will be needed. In this paper we first define two notions of a disease-centric subdomain of a large ontology. We then explore two methods for identifying disease-centric subdomains of such large medical vocabularies. The first method is based on lexically querying the ontology with an iteratively extended set of seed queries. The second method is based on manual mapping between concepts from a medical guideline document and ontology concepts. Both methods include concept-expansion over subsumption and equality relations. We use both methods to determine a breast-cancer-centric subdomain of the SNOMED CT ontology. Our experiments show that the two methods produce a considerable overlap, but they also yield a large degree of complementarity, with interesting differences between the sets of concepts that they return. Analysis of the results reveals strengths and weaknesses of the different methods. © 2010 Springer Berlin Heidelberg.",
+  abstract  = "Modern medical vocabularies can contain up to hundreds of thousands of concepts. In any particular use-case only a small fraction of these will be needed. In this paper we first define two notions of a disease-centric subdomain of a large ontology. We then explore two methods for identifying disease-centric subdomains of such large medical vocabularies. The first method is based on lexically querying the ontology with an iteratively extended set of seed queries. The second method is based on manual mapping between concepts from a medical guideline document and ontology concepts. Both methods include concept-expansion over subsumption and equality relations. We use both methods to determine a breast-cancer-centric subdomain of the SNOMED CT ontology. Our experiments show that the two methods produce a considerable overlap, but they also yield a large degree of complementarity, with interesting differences between the sets of concepts that they return. Analysis of the results reveals strengths and weaknesses of the different methods.",
   keywords  = "Disease related concepts, Identifying ontology subdomain, Mapping medical terminologies, Medical guidelines, Ontology subsetting, Seed queries",
   author    = "Krystyna Milian and Zharko Aleksovski and Richard Vdovjak and {Ten Teije}, Annette and {Van Harmelen}, Frank",
   year      = "2010",
@@ -4610,14 +4805,6 @@
   pages     = "433--467",
   editor    = "A Shoshani and D Rotem",
   booktitle = "Semantic Data Management: challenges, technology, and deployment",
-}
-
-
-@inbook{c1eb81107fd043f8bbc1887ced049b67,
-  title     = "Mind the data skew: distributed inferencing by speeddating in elastic regions",
-  author    = "S. Kotoulas and E. Oren and {van Harmelen}, F.A.H.",
-  year      = "2010",
-  booktitle = "Proceedings of the 19th International Conference on World Wide Web",
 }
 
 
@@ -5179,7 +5366,7 @@
 
 @inbook{f98679b520294b28bf556a6437d8749e,
   title     = "Reasoning about repairability of workflows at design time",
-  abstract  = "This paper describes an approach for reasoning about the repairability of workflows at design time. We propose a heuristic-based analysis of a workflow that aims at evaluating its definition, considering different design aspects and characteristics that affect its repairability (called repairability factors), in order to determine if the workflow schema supports repairable executions of its activities through the application of repair actions. The analysis intents to identify and evaluate the impact of critical design flaws affecting the repairability of workflows. The results of this analysis are fed back to the workflow designer and used to improve the repairability of the workflow by making appropriate changes to its definition. © 2009 Springer Berlin Heidelberg.",
+  abstract  = "This paper describes an approach for reasoning about the repairability of workflows at design time. We propose a heuristic-based analysis of a workflow that aims at evaluating its definition, considering different design aspects and characteristics that affect its repairability (called repairability factors), in order to determine if the workflow schema supports repairable executions of its activities through the application of repair actions. The analysis intents to identify and evaluate the impact of critical design flaws affecting the repairability of workflows. The results of this analysis are fed back to the workflow designer and used to improve the repairability of the workflow by making appropriate changes to its definition.",
   keywords  = "Repairability of Workflows, Self-healing Web services, Web Service Composition, Workflow Design",
   author    = "Gaston Tagni and {Ten Teije}, Annette and {Van Harmelen}, Frank",
   year      = "2009",
@@ -5425,7 +5612,7 @@
 
 @article{1849fcb892e14cb2aea6e787e31111ab,
   title     = "Expertise-based peer selection in Peer-to-Peer networks",
-  abstract  = "Peer-to-Peer systems have proven to be an effective way of sharing data. Modern protocols are able to efficiently route a message to a given peer. However, determining the destination peer in the first place is not always trivial. We propose a model in which peers advertise their expertise in the Peer-to-Peer network. The knowledge about the expertise of other peers forms a semantic topology. Based on the semantic similarity between the subject of a query and the expertise of other peers, a peer can select appropriate peers to forward queries to, instead of broadcasting the query or sending it to a random set of peers. To calculate our semantic similarity measure, we make the simplifying assumption that the peers share the same ontology. We evaluate the model in a bibliographic scenario, where peers share bibliographic descriptions of publications among each other. In simulation experiments complemented with a real-world field experiment, we show how expertise-based peer selection improves the performance of a Peer-to-Peer system with respect to precision, recall and the number of messages. © Springer-Verlag London Limited 2007.",
+  abstract  = "Peer-to-Peer systems have proven to be an effective way of sharing data. Modern protocols are able to efficiently route a message to a given peer. However, determining the destination peer in the first place is not always trivial. We propose a model in which peers advertise their expertise in the Peer-to-Peer network. The knowledge about the expertise of other peers forms a semantic topology. Based on the semantic similarity between the subject of a query and the expertise of other peers, a peer can select appropriate peers to forward queries to, instead of broadcasting the query or sending it to a random set of peers. To calculate our semantic similarity measure, we make the simplifying assumption that the peers share the same ontology. We evaluate the model in a bibliographic scenario, where peers share bibliographic descriptions of publications among each other. In simulation experiments complemented with a real-world field experiment, we show how expertise-based peer selection improves the performance of a Peer-to-Peer system with respect to precision, recall and the number of messages.",
   keywords  = "Ontologies, P2P, Routing, Semantic overlays",
   author    = "Peter Haase and Ronny Siebes and {van Harmelen}, Frank",
   year      = "2008",
@@ -5488,7 +5675,7 @@
 
 @inbook{d164f9a305d14844a2ee4f8e479f5fba,
   title     = "Chapter 21 The Semantic Web: Webizing Knowledge Representation",
-  abstract  = "The World Wide Web opens up new opportunities for the use of knowledge representation: a formal description of the semantic content of Web pages can allow better processing by computational agents. Further, the naming scheme of the Web, using Universal Resource Indicators, allows KR systems to avoid the ambiguities of natural language and to allow linking between semantic documents. These capabilities open up a raft of new possibilities for KR, but also present challenges to some traditional KR assumptions. © 2008 Elsevier B.V. All rights reserved.",
+  abstract  = "The World Wide Web opens up new opportunities for the use of knowledge representation: a formal description of the semantic content of Web pages can allow better processing by computational agents. Further, the naming scheme of the Web, using Universal Resource Indicators, allows KR systems to avoid the ambiguities of natural language and to allow linking between semantic documents. These capabilities open up a raft of new possibilities for KR, but also present challenges to some traditional KR assumptions.",
   author    = "Jim Hendler and {van Harmelen}, Frank",
   year      = "2008",
   doi       = "10.1016/S1574-6526(07)03021-0",
@@ -5526,7 +5713,7 @@
 
 @inbook{bf4d9dc0db0f47759bf872c849fc8b69,
   title     = "Models of interaction as a grounding for Peer to peer knowledge sharing",
-  abstract  = "Most current attempts to achieve reliable knowledge sharing on a large scale have relied on pre-engineering of content and supply services. This, like traditional knowledge engineering, does not by itself scale to large, open, peer to peer systems because the cost of being precise about the absolute semantics of services and their knowledge rises rapidly as more services participate. We describe how to break out of this deadlock by focusing on semantics related to interaction and using this to avoid dependency on a priori semantic agreement; instead making semantic commitments incrementally at run time. Our method is based on interaction models that are mobile in the sense that they may be transferred to other components, this being a mechanism for service composition and for coalition formation. By shifting the emphasis to interaction (the details of which may be hidden from users) we can obtain knowledge sharing of sufficient quality for sustainable communities of practice without the barrier of complex meta-data provision prior to community formation. © 2009 Springer Berlin Heidelberg.",
+  abstract  = "Most current attempts to achieve reliable knowledge sharing on a large scale have relied on pre-engineering of content and supply services. This, like traditional knowledge engineering, does not by itself scale to large, open, peer to peer systems because the cost of being precise about the absolute semantics of services and their knowledge rises rapidly as more services participate. We describe how to break out of this deadlock by focusing on semantics related to interaction and using this to avoid dependency on a priori semantic agreement; instead making semantic commitments incrementally at run time. Our method is based on interaction models that are mobile in the sense that they may be transferred to other components, this being a mechanism for service composition and for coalition formation. By shifting the emphasis to interaction (the details of which may be hidden from users) we can obtain knowledge sharing of sufficient quality for sustainable communities of practice without the barrier of complex meta-data provision prior to community formation.",
   author    = "David Robertson and Adam Barker and Paolo Besana and Alan Bundy and Chen-Burger, {Yun Heh} and David Dupplaw and Fausto Giunchiglia and {Van Harmelen}, Frank and Fadzil Hassan and Spyros Kotoulas and David Lambert and Guo-chao Li and Jarred McGinnis and Fiona McNeill and Nardine Osman and {De Pinninck}, {Adrian Perreau} and Ronny Siebes and Carles Sierra and Chris Walton",
   year      = "2008",
   doi       = "10.1007/978-3-540-89784-2_4",
@@ -5540,7 +5727,7 @@
 
 @inbook{31ea4763a7934f2992fcc15a8a2a686a,
   title     = "Open knowledge coordinating knowledge sharing through peer-to-peer interaction",
-  abstract  = "The drive to extend the Web by taking advantage of automated symbolic reasoning (the so-called Semantic Web) has been dominated by a traditional model of knowledge sharing, in which the focus is on task-independent standardisation of knowledge. It appears to be difficult, in practice, to standardise in this way because the way in which we represent knowledge is strongly influenced by the ways in which we expect to use it. We present a form of knowledge sharing that is based not on direct sharing of {"}true{"} statements about the world but, instead, is based on sharing descriptions of interactions. By making interaction specifications the currency of knowledge sharing we gain a context to interpreting knowledge that can be transmitted between peers, in a manner analogous to the use of electronic institutions in multi-agent systems. The narrower notion of semantic commitment we thus obtain requires peers only to commit to meanings of terms for the purposes and duration of the interactions in which they appear. This lightweight semantics allows networks of interaction to be formed between peers using comparatively simple means of tackling the perennial issues of query routing, service composition and ontology matching. A basic version of the system described in this paper has been built (via the OpenKnowledge project); all its components use established methods; many of these have been deployed in substantial applications; and we summarise a simple means of integration using the interaction specification language itself. © 2008 Springer-Verlag Berlin Heidelberg.",
+  abstract  = "The drive to extend the Web by taking advantage of automated symbolic reasoning (the so-called Semantic Web) has been dominated by a traditional model of knowledge sharing, in which the focus is on task-independent standardisation of knowledge. It appears to be difficult, in practice, to standardise in this way because the way in which we represent knowledge is strongly influenced by the ways in which we expect to use it. We present a form of knowledge sharing that is based not on direct sharing of {"}true{"} statements about the world but, instead, is based on sharing descriptions of interactions. By making interaction specifications the currency of knowledge sharing we gain a context to interpreting knowledge that can be transmitted between peers, in a manner analogous to the use of electronic institutions in multi-agent systems. The narrower notion of semantic commitment we thus obtain requires peers only to commit to meanings of terms for the purposes and duration of the interactions in which they appear. This lightweight semantics allows networks of interaction to be formed between peers using comparatively simple means of tackling the perennial issues of query routing, service composition and ontology matching. A basic version of the system described in this paper has been built (via the OpenKnowledge project); all its components use established methods; many of these have been deployed in substantial applications; and we summarise a simple means of integration using the interaction specification language itself.",
   author    = "Dave Robertson and Fausto Giunchiglia and {Van Harmelen}, Frank and Maurizio Marchese and Marta Sabou and Marco Schorlemmer and Nigel Shadbolt and Ronnie Siebes and Carles Sierra and Chris Walton and Srinandan Dasmahapatra and Dave Dupplaw and Paul Lewis and Mikalai Yatskevich and Spyros Kotoulas and {De Pinninck}, {Adrian Perreau} and Antonis Loizou",
   year      = "2008",
   doi       = "10.1007/978-3-540-85058-8_1",
@@ -5606,7 +5793,7 @@
 
 @inbook{11c3609efb2848aa99fe2d3b2696fea1,
   title     = "Towards LarKC: A platform for Web-scale reasoning",
-  abstract  = "Current Semantic Web reasoning systems do not scale to the requirements of their hottest applications, such as analyzing data from millions of mobile devices, dealing with terabytes of scientific data, and content management in enterprises with thousands of knowledge workers. In this paper, we present our plan of building the Large Knowledge Collider, a platform for massive distributed incomplete reasoning that will remove these scalability barriers. This is achieved by (i) enriching the current logic-based Semantic Web reasoning methods, (ii) employing cognitively inspired approaches and techniques, and (iii) building a distributed reasoning platform and realizing it both on a high-performance computing cluster and via {"}computing at home{"}. In this paper, we will discuss how the technologies of LarKC would move beyond the state-of-the-art of Web-scale reasoning. © 2008 IEEE.",
+  abstract  = "Current Semantic Web reasoning systems do not scale to the requirements of their hottest applications, such as analyzing data from millions of mobile devices, dealing with terabytes of scientific data, and content management in enterprises with thousands of knowledge workers. In this paper, we present our plan of building the Large Knowledge Collider, a platform for massive distributed incomplete reasoning that will remove these scalability barriers. This is achieved by (i) enriching the current logic-based Semantic Web reasoning methods, (ii) employing cognitively inspired approaches and techniques, and (iii) building a distributed reasoning platform and realizing it both on a high-performance computing cluster and via {"}computing at home{"}. In this paper, we will discuss how the technologies of LarKC would move beyond the state-of-the-art of Web-scale reasoning.",
   author    = "Dieter Fensel and {Van Harmelen}, Frank and Bo Andersson and Paul Brennan and Hamish Cunningham and Valle, {Emanuele Delia} and Florian Fischer and Zhisheng Huang and Atanas Kiryakov and Lee, {Tony Kyung Il} and Lael Schooler and Volker Tresp and Stefan Wesner and Michael Witbrock and Ning Zhong",
   year      = "2008",
   doi       = "10.1109/ICSC.2008.41",
@@ -5705,7 +5892,7 @@
 
 @article{70984b20c73d4635895bc4a4c0493911,
   title     = "Reasoning and change management in modular ontologies",
-  abstract  = "The benefits of modular representations are well known from many areas of computer science. While in software engineering modularization is mainly a vehicle for supporting distributed development and re-use, in knowledge representation, the main goal of modularization is efficiency of reasoning. In this paper, we concentrate on the benefits of modularization in the context of ontologies, explicit representations of the terminology used in a domain. We define a formal representation for modular ontologies based on the notion of Distributed Description Logics and introduce an architecture that supports local reasoning by compiling implied axioms. We further address the problem of guaranteeing the correctness and completeness of compiled knowledge in the presence of changes in different modules. We propose a heuristic for analyzing changes and their impact on compiled knowledge and guiding the process of updating compiled information that can often reduce the effort of maintaining a modular ontology by avoiding unnecessary re-compilation. © 2007 Elsevier B.V. All rights reserved.",
+  abstract  = "The benefits of modular representations are well known from many areas of computer science. While in software engineering modularization is mainly a vehicle for supporting distributed development and re-use, in knowledge representation, the main goal of modularization is efficiency of reasoning. In this paper, we concentrate on the benefits of modularization in the context of ontologies, explicit representations of the terminology used in a domain. We define a formal representation for modular ontologies based on the notion of Distributed Description Logics and introduce an architecture that supports local reasoning by compiling implied axioms. We further address the problem of guaranteeing the correctness and completeness of compiled knowledge in the presence of changes in different modules. We propose a heuristic for analyzing changes and their impact on compiled knowledge and guiding the process of updating compiled information that can often reduce the effort of maintaining a modular ontology by avoiding unnecessary re-compilation.",
   keywords  = "Change management, Distributed Knowledge Representation, Ontologies, Reasoning",
   author    = "Heiner Stuckenschmidt and Michel Klein",
   year      = "2007",
@@ -5722,7 +5909,7 @@
 
 @article{13f19f42684b4319a665bedb844b5cda,
   title     = "Debugging incoherent terminologies",
-  abstract  = "In this paper we study the diagnosis and repair of incoherent terminologies. We define a number of new nonstandard reasoning services to explain incoherence through pinpointing, and we present algorithms for all of these services. For one of the core tasks of debugging, the calculation of minimal unsatisfiability preserving subterminologies, we developed two different algorithms, one implementing a bottom-up approach using support of an external description logic reasoner, the other implementing a specialized tableau-based calculus. Both algorithms have been prototypically implemented. We study the effectiveness of our algorithms in two ways: we present a realistic case study where we diagnose a terminology used in a practical application, and we perform controlled benchmark experiments to get a better understanding of the computational properties of our algorithms in particular and the debugging problem in general. © 2007 Springer Science+Business Media B.V.",
+  abstract  = "In this paper we study the diagnosis and repair of incoherent terminologies. We define a number of new nonstandard reasoning services to explain incoherence through pinpointing, and we present algorithms for all of these services. For one of the core tasks of debugging, the calculation of minimal unsatisfiability preserving subterminologies, we developed two different algorithms, one implementing a bottom-up approach using support of an external description logic reasoner, the other implementing a specialized tableau-based calculus. Both algorithms have been prototypically implemented. We study the effectiveness of our algorithms in two ways: we present a realistic case study where we diagnose a terminology used in a practical application, and we perform controlled benchmark experiments to get a better understanding of the computational properties of our algorithms in particular and the debugging problem in general.",
   keywords  = "Debugging, Description logics, Diagnosis",
   author    = "Stefan Schlobach and Zhisheng Huang and Ronald Cornet and {Van Harmelen}, Frank",
   year      = "2007",
@@ -5739,7 +5926,7 @@
 
 @article{283379e3418b40d8b9471f6e8e144a1a,
   title     = "Extraction and use of linguistic patterns for modelling medical guidelines",
-  abstract  = "Objective: The quality of knowledge updates in evidence-based medical guidelines can be improved and the effort spent for updating can be reduced if the knowledge underlying the guideline text is explicitly modelled using the so-called linguistic guideline patterns, mappings between a text fragment and a formal representation of its corresponding medical knowledge. Methods and material: Ontology-driven extraction of linguistic patterns is a method to automatically reconstruct the control knowledge captured in guidelines, which facilitates a more effective modelling and authoring of medical guidelines. We illustrate by examples the use of this method for generating and instantiating linguistic patterns in the text of a guideline for treatment of breast cancer, and evaluate the usefulness of these patterns in the modelling of this guideline. Results: We developed a methodology for extracting and using linguistic patterns in guideline formalization, to aid the human modellers in guideline formalization and reduce the human modelling effort. Using automatic transformation rules for simple linguistic patterns, a good recall (between 72% and 80%) is obtained in selecting the procedural knowledge relevant for the guideline model, even though the precision of the guideline model generated automatically covers only between 20% and 35% of the human-generated guideline model. These results indicate the suitability of our method as a pre-processing step in medical guideline formalization. Conclusions: Modelling and authoring of medical texts can benefit from our proposed method. As pre-requisites for generating automatically a skeleton of the guideline model from the procedural part of the guideline text, to aid the human modeller, the medical terminology used by the guideline must have a good overlap with existing medical thesauri and its procedural knowledge must obey linguistic regularities that can be mapped into the control constructs of the target guideline modelling language. © 2006 Elsevier B.V. All rights reserved.",
+  abstract  = "Objective: The quality of knowledge updates in evidence-based medical guidelines can be improved and the effort spent for updating can be reduced if the knowledge underlying the guideline text is explicitly modelled using the so-called linguistic guideline patterns, mappings between a text fragment and a formal representation of its corresponding medical knowledge. Methods and material: Ontology-driven extraction of linguistic patterns is a method to automatically reconstruct the control knowledge captured in guidelines, which facilitates a more effective modelling and authoring of medical guidelines. We illustrate by examples the use of this method for generating and instantiating linguistic patterns in the text of a guideline for treatment of breast cancer, and evaluate the usefulness of these patterns in the modelling of this guideline. Results: We developed a methodology for extracting and using linguistic patterns in guideline formalization, to aid the human modellers in guideline formalization and reduce the human modelling effort. Using automatic transformation rules for simple linguistic patterns, a good recall (between 72% and 80%) is obtained in selecting the procedural knowledge relevant for the guideline model, even though the precision of the guideline model generated automatically covers only between 20% and 35% of the human-generated guideline model. These results indicate the suitability of our method as a pre-processing step in medical guideline formalization. Conclusions: Modelling and authoring of medical texts can benefit from our proposed method. As pre-requisites for generating automatically a skeleton of the guideline model from the procedural part of the guideline text, to aid the human modeller, the medical terminology used by the guideline must have a good overlap with existing medical thesauri and its procedural knowledge must obey linguistic regularities that can be mapped into the control constructs of the target guideline modelling language.",
   keywords  = "Knowledge engineering, Medical guideline formalization, Ontologies, Semantic mark-up",
   author    = "Radu Serban and {ten Teije}, Annette and {van Harmelen}, Frank and Mar Marcos and Cristina Polo-Conde",
   year      = "2007",
@@ -5765,7 +5952,7 @@
 
 @inbook{a78c5e01371f479abdbc2a83e460d202,
   title     = "Analyzing differences in operational disease definitions using ontological modeling",
-  abstract  = "In medicine, there are many diseases which cannot be precisely characterized but are considered as natural kinds. In the communication between health care professionals, this is generally not problematic. In biomedical research, however, crisp definitions are required to unambiguously distinguish patients with and without the disease. In practice, this results in different operational definitions being in use for a single disease. This paper presents an approach to compare different operational definitions of a single disease using ontological modeling. The approach is illustrated with a case-study in the area of severe sepsis. © Springer-Verlag Berlin Heidelberg 2007.",
+  abstract  = "In medicine, there are many diseases which cannot be precisely characterized but are considered as natural kinds. In the communication between health care professionals, this is generally not problematic. In biomedical research, however, crisp definitions are required to unambiguously distinguish patients with and without the disease. In practice, this results in different operational definitions being in use for a single disease. This paper presents an approach to compare different operational definitions of a single disease using ontological modeling. The approach is illustrated with a case-study in the area of severe sepsis.",
   author    = "Linda Peelen and Klein, {Michel C.A.} and Stefan Schlobach and {De Keizer}, {Nicolette F.} and Niels Peek",
   year      = "2007",
   doi       = "10.1007/978-3-540-73599-1_40",
@@ -5848,7 +6035,7 @@
 
 @inbook{a06de2367d074723b9a3facc6af646e3,
   title     = "Maintaining formal models of living guidelines efficiently",
-  abstract  = "Translating clinical guidelines into formal models is beneficial in many ways, but expensive. The progress in medical knowledge requires clinical guidelines to be updated at relatively short intervals, leading to the term living guideline. This causes potentially expensive, frequent updates of the corresponding formal models. When performing these updates, there are two goals: The modelling effort must be minimised and the links between the original document and the formal model must be maintained. In this paper, we describe our solution, using tools and techniques developed during the Protocure II project. © Springer-Verlag Berlin Heidelberg 2007.",
+  abstract  = "Translating clinical guidelines into formal models is beneficial in many ways, but expensive. The progress in medical knowledge requires clinical guidelines to be updated at relatively short intervals, leading to the term living guideline. This causes potentially expensive, frequent updates of the corresponding formal models. When performing these updates, there are two goals: The modelling effort must be minimised and the links between the original document and the formal model must be maintained. In this paper, we describe our solution, using tools and techniques developed during the Protocure II project.",
   author    = "Andreas Seyfang and Begoña Martínez-Salvador and Radu Serban and Jolanda Wittenberg and Silvia Miksch and Mar Marcos and {Ten Teije}, Annette and Rosenbrand, {Kitty C J G M}",
   year      = "2007",
   isbn      = "3540735984",
@@ -5860,7 +6047,7 @@
 
 @inbook{a3658c341e5b4fb19372c0d8f012020e,
   title     = "Media, politics and the semantic web",
-  abstract  = "The media play an important role in the functioning of our society. This role is extensively studied by Communication Scientists, requiring a systematic analysis of media content. The methods developed in this field utilize complex data models and background knowledge. This data is generally represented ad hoc, making it difficult to analyze, combine and share data sets. In this paper we present our work on formalizing this representation using RDF(S). We discuss the requirements for a good representation, highlighting a number of non-trivial modeling decisions. We conclude with a description of the resulting system and the benefits for a recent investigation of the 2006 Dutch parliamentary campaign. This case study shows concrete improvements for annotating, querying, and analyzing data, but also indicates a number of aspects that were more difficult to model in RDF(S), contributing to the discussion on modeling with and improving RDF(S) and associated tools. © Springer-Verlag Berlin Heidelberg 2007.",
+  abstract  = "The media play an important role in the functioning of our society. This role is extensively studied by Communication Scientists, requiring a systematic analysis of media content. The methods developed in this field utilize complex data models and background knowledge. This data is generally represented ad hoc, making it difficult to analyze, combine and share data sets. In this paper we present our work on formalizing this representation using RDF(S). We discuss the requirements for a good representation, highlighting a number of non-trivial modeling decisions. We conclude with a description of the resulting system and the benefits for a recent investigation of the 2006 Dutch parliamentary campaign. This case study shows concrete improvements for annotating, querying, and analyzing data, but also indicates a number of aspects that were more difficult to model in RDF(S), contributing to the discussion on modeling with and improving RDF(S) and associated tools.",
   author    = "{Van Atteveldt}, Wouter and Stefan Schlobach and {Van Harmelen}, Frank",
   year      = "2007",
   isbn      = "3540726667",
@@ -5910,7 +6097,7 @@
 
 @inbook{c8660026c38c49ad891322ef6124401f,
   title     = "The OpenKnowledge system: An interaction-centered approach to knowledge sharing",
-  abstract  = "The information that is made available through the semantic web will be accessed through complex programs (web-services, sensors, etc.) that may interact in sophisticated ways. Composition guided simply by the specifications of programs' inputs and outputs is insufficient to obtain reliable aggregate performance - hence the recognised need for process models to specify the interactions required between programs. These interaction models, however, are traditionally viewed as a consequence of service composition rather than as the focal point for facilitating composition. We describe an operational system that uses models of interaction as the focus for knowledge exchange. Our implementation adopts a peer to peer architecture, thus making minimal assumptions about centralisation of knowledge sources, discovery and interaction control. © Springer-Verlag Berlin Heidelberg 2007.",
+  abstract  = "The information that is made available through the semantic web will be accessed through complex programs (web-services, sensors, etc.) that may interact in sophisticated ways. Composition guided simply by the specifications of programs' inputs and outputs is insufficient to obtain reliable aggregate performance - hence the recognised need for process models to specify the interactions required between programs. These interaction models, however, are traditionally viewed as a consequence of service composition rather than as the focal point for facilitating composition. We describe an operational system that uses models of interaction as the focus for knowledge exchange. Our implementation adopts a peer to peer architecture, thus making minimal assumptions about centralisation of knowledge sources, discovery and interaction control.",
   author    = "Ronny Siebes and Dave Dupplaw and Spyros Kotoulas and {De Pinninck}, {Adrian Perreau} and {Van Harmelen}, Frank and David Robertson",
   year      = "2007",
   isbn      = "9783540768463",
@@ -5925,7 +6112,7 @@
 
 @inbook{fe168c99784142baaf7ab0ded58564ca,
   title     = "The role of model checking in critiquing based on clinical guidelines",
-  abstract  = "Medical critiquing systems criticise clinical actions performed by a physician. In order to provide useful feedback, an important task is to find differences between the actual actions and a set of 'ideal' actions as described by a clinical guideline. In case differences exist, insight to which extent they are compatible is provided by the critiquing system. We propose a methodology for such critiquing, where the ideal actions are given by a formal model of a clinical guideline, and where the actual actions are derived from real world patient data. We employ model checking to investigate whether a part of the actual treatment is consistent with the guideline. Furthermore, it is shown how critiquing can be cast in terms of temporal logic, and what can be achieved by using model checking. The methodology has been applied to a clinical guideline of breast cancer in conjunction with breast cancer patient data. © Springer-Verlag Berlin Heidelberg 2007.",
+  abstract  = "Medical critiquing systems criticise clinical actions performed by a physician. In order to provide useful feedback, an important task is to find differences between the actual actions and a set of 'ideal' actions as described by a clinical guideline. In case differences exist, insight to which extent they are compatible is provided by the critiquing system. We propose a methodology for such critiquing, where the ideal actions are given by a formal model of a clinical guideline, and where the actual actions are derived from real world patient data. We employ model checking to investigate whether a part of the actual treatment is consistent with the guideline. Furthermore, it is shown how critiquing can be cast in terms of temporal logic, and what can be achieved by using model checking. The methodology has been applied to a clinical guideline of breast cancer in conjunction with breast cancer patient data.",
   author    = "Perry Groot and Arjen Hommersom and Peter Lucas and Radu Serban and {Ten Teije}, Annette and {Van Harmelen}, Frank",
   year      = "2007",
   isbn      = "3540735984",
@@ -5937,7 +6124,7 @@
 
 @inbook{5f5655376ba6488f9ac5430a4320ed17,
   title     = "Two obvious intuitions: Ontology-mapping needs background knowledge and approximation",
-  abstract  = "Ontology mapping (or: ontology alignment, or integration) is one of the most active areas the Semantic Web area. An increasing amount of ontologies are becoming available in recent years, and if the Semantic Web is to be taken seriously, the problem of ontology mapping must be solved. Numerous approaches are being proposed, a yearly competition is being organized, and a number of survey papers have appeared. Nevertheless, with only a few exceptions, two obvious intuitions on ontology mapping have been overlooked: if humans perform {"}ontology mapping{"} in their daily life (a task we all solve every day), they do not do this in a vacuum. Instead, they exploit a rich body of background knowledge already shared by both agents involved in the mapping process. Similarly, humans do not expect that their daily-life ontology mapping is perfect. We can very well cope with approximate translations between concepts used by different agents (in fact, we are so good at it that we barely notice that we do this). In this talk I will discuss recent work where we have quantitatively shown that indeed, ontology mapping can benefit from background knowledge, and that, somewhat surprisingly, more background knowledge leads to continuously improving results. We also discuss how the use of such background knowledge can be exploited to find approximate mappings when perfect mappings cannot be found. © 2006 IEEE.",
+  abstract  = "Ontology mapping (or: ontology alignment, or integration) is one of the most active areas the Semantic Web area. An increasing amount of ontologies are becoming available in recent years, and if the Semantic Web is to be taken seriously, the problem of ontology mapping must be solved. Numerous approaches are being proposed, a yearly competition is being organized, and a number of survey papers have appeared. Nevertheless, with only a few exceptions, two obvious intuitions on ontology mapping have been overlooked: if humans perform {"}ontology mapping{"} in their daily life (a task we all solve every day), they do not do this in a vacuum. Instead, they exploit a rich body of background knowledge already shared by both agents involved in the mapping process. Similarly, humans do not expect that their daily-life ontology mapping is perfect. We can very well cope with approximate translations between concepts used by different agents (in fact, we are so good at it that we barely notice that we do this). In this talk I will discuss recent work where we have quantitatively shown that indeed, ontology mapping can benefit from background knowledge, and that, somewhat surprisingly, more background knowledge leads to continuously improving results. We also discuss how the use of such background knowledge can be exploited to find approximate mappings when perfect mappings cannot be found.",
   author    = "{Van Harmelen}, Frank",
   year      = "2007",
   doi       = "10.1109/IAT.2006.127",
@@ -6007,7 +6194,7 @@
 
 @inbook{8c39755717ec492b8f29f86f653d2ade,
   title     = "Approximate semantic matching of music classes on the internet",
-  abstract  = "We address the problem of semantic matching, which concerns the search for semantic agreement between heterogeneous concept hierarchies. We propose a new approximation method to discover and assess the {"}strength{"} (preciseness) of a semantic match between concepts from two such concept hierarchies. We apply the method in the music domain, and present the results of preliminary tests on concept hierarchies from actual sites on the Internet. © 2006 Springer.",
+  abstract  = "We address the problem of semantic matching, which concerns the search for semantic agreement between heterogeneous concept hierarchies. We propose a new approximation method to discover and assess the {"}strength{"} (preciseness) of a semantic match between concepts from two such concept hierarchies. We apply the method in the music domain, and present the results of preliminary tests on concept hierarchies from actual sites on the Internet.",
   keywords  = "approximation, Music genre, music style, ontology, semantic matching, semantic web",
   author    = "Zharko Aleksovski and Kate, {Warner Ten} and {Van Harmelen}, Frank",
   year      = "2006",
@@ -6021,7 +6208,7 @@
 
 @inbook{cf8614b39e9f4861839dd9ad3025e60f,
   title     = "Bibster-a semantics-based bibliographic peer-to-peer system",
-  abstract  = "This chapter describes the design, implementation, and evaluation of Bibster, a Peer-to-Peer system for exchanging bibliographic data among researchers. Bibster exploits ontologies in data-storage, query formulation, query-routing and answer presentation: When bibliographic entries are made available for use in Bibster, they are structured and classified according to two different ontologies. This ontological structure is then exploited to help users formulate their queries. Subsequently, the ontologies are used to improve query routing across the Peer-to-Peer network. Finally, the ontologies are used to post-process the returned answers in order to do duplicate detection. The chapter describes each of these ontology-based aspects of Bibster. © 2006 Springer-Verlag Berlin Heidelberg.",
+  abstract  = "This chapter describes the design, implementation, and evaluation of Bibster, a Peer-to-Peer system for exchanging bibliographic data among researchers. Bibster exploits ontologies in data-storage, query formulation, query-routing and answer presentation: When bibliographic entries are made available for use in Bibster, they are structured and classified according to two different ontologies. This ontological structure is then exploited to help users formulate their queries. Subsequently, the ontologies are used to improve query routing across the Peer-to-Peer network. Finally, the ontologies are used to post-process the returned answers in order to do duplicate detection. The chapter describes each of these ontology-based aspects of Bibster.",
   author    = "Peter Haase and Björn Schnizler and Jeen Broekstra and Marc Ehrig and {Van Harmelen}, Frank and Maarten Menken and Peter Mika and Michal Plechawski and Pawel Pyszlak and Ronny Siebes and Steffen Staab and Christoph Tempich",
   year      = "2006",
   doi       = "10.1007/3-540-28347-1_19",
@@ -6043,7 +6230,7 @@
 
 @inbook{f8169997e7ad44b59c25de04c6391b3a,
   title     = "Expertise-based peer selection",
-  abstract  = "Peer-to-Peer systems have proven to be an effective way of sharing data. Finding the data in an efficient and robust manner still is a challenging problem. We propose a model in which peers advertise their expertise in the Peer-to-Peer network. The knowledge about the expertise of other peers forms a semantic overlay network (SON). Based on the semantic similarity between the subject of a query and the expertise of other peers, a peer can select appropriate peers to forward queries to, instead of broadcasting the query or sending it to a random set of peers. We evaluate the model in a bibliographic scenario, where peers share bibliographic descriptions of publications among each other. In simulation experiments complemented with a real-world field experiment we show how expertise based peer selection improves the performance of a Peer-to-Peer system with respect to precision, recall and the number of messages. © 2006 Springer-Verlag Berlin Heidelberg.",
+  abstract  = "Peer-to-Peer systems have proven to be an effective way of sharing data. Finding the data in an efficient and robust manner still is a challenging problem. We propose a model in which peers advertise their expertise in the Peer-to-Peer network. The knowledge about the expertise of other peers forms a semantic overlay network (SON). Based on the semantic similarity between the subject of a query and the expertise of other peers, a peer can select appropriate peers to forward queries to, instead of broadcasting the query or sending it to a random set of peers. We evaluate the model in a bibliographic scenario, where peers share bibliographic descriptions of publications among each other. In simulation experiments complemented with a real-world field experiment we show how expertise based peer selection improves the performance of a Peer-to-Peer system with respect to precision, recall and the number of messages.",
   author    = "Ronny Siebes and Peter Haase and {Van Harmelen}, Frank",
   year      = "2006",
   doi       = "10.1007/3-540-28347-1_7",
@@ -6083,7 +6270,7 @@
 
 @inbook{b9e4e042dd474445b581ce0311d52bd8,
   title     = "From natural language to formal proof goal* structured goal formalisation applied to medical guidelines (extended abstract)",
-  abstract  = "The main problem encountered when starting verification of goals for some formal system, is the ambiguity of those goals when they are specified in natural language. To verify goals given in natural language, a translation of those goals to the formalism of the verification tool is required. The main concern is to assure equivalence of the final translation and the original. A structured method is required to assure equivalence in every case. This article proposes a goal formalisation method in five steps, in which the domain expert is involved in such a way that the correctness of the result can be assured. The contribution of this article is a conceptual goal model, a formal expression language for this model, and a structured method which transforms any input goal to a fully formalised goal in the required target formalism. The proposed formalisation method guarantees essential properties like correctness, traceability, reduced variability and reusability. © Springer-Verlag Berlin Heidelberg 2006.",
+  abstract  = "The main problem encountered when starting verification of goals for some formal system, is the ambiguity of those goals when they are specified in natural language. To verify goals given in natural language, a translation of those goals to the formalism of the verification tool is required. The main concern is to assure equivalence of the final translation and the original. A structured method is required to assure equivalence in every case. This article proposes a goal formalisation method in five steps, in which the domain expert is involved in such a way that the correctness of the result can be assured. The contribution of this article is a conceptual goal model, a formal expression language for this model, and a structured method which transforms any input goal to a fully formalised goal in the required target formalism. The proposed formalisation method guarantees essential properties like correctness, traceability, reduced variability and reusability.",
   author    = "Ruud Stegers and Teije, {Annette Ten} and {Van Harmelen}, Frank",
   year      = "2006",
   isbn      = "3540463631",
@@ -6109,7 +6296,7 @@
 
 @inbook{8e8a469a90534f2a99c45c6497232994,
   title     = "Incremental guideline formalization with tool support",
-  abstract  = "Guideline formalization is recognized as an important component in improving computerized guidelines, which in turn leads to better informedness, lower inter-practician variability and, ultimately, to higher quality healthcare. By means of a modeling exercise, we investigate the role of guideline formalization tools which use two different knowledge transformation principles in producing re-usable knowledge objects useful for representing medical processes and performing updates of medical guidelines. We give a general evaluation of usefulness and state the main requirements for tools that reuse medical knowledge and support authoring of guidelines. © 2006 International Federation for Information Processing.",
+  abstract  = "Guideline formalization is recognized as an important component in improving computerized guidelines, which in turn leads to better informedness, lower inter-practician variability and, ultimately, to higher quality healthcare. By means of a modeling exercise, we investigate the role of guideline formalization tools which use two different knowledge transformation principles in producing re-usable knowledge objects useful for representing medical processes and performing updates of medical guidelines. We give a general evaluation of usefulness and state the main requirements for tools that reuse medical knowledge and support authoring of guidelines.",
   author    = "Radu Serban and Anna Puig-Centelles and {ten Teije}, Annette",
   year      = "2006",
   doi       = "10.1007/0-387-34224-9_13",
@@ -6123,7 +6310,7 @@
 
 @inbook{5c8046aa6f4542cfaf255e4fcc6c590c,
   title     = "Matching unstructured vocabularies using a background ontology",
-  abstract  = "Existing ontology matching algorithms use a combination of lexical and structural correspondence between source and target ontologies. We present a realistic case-study where both types of overlap are low: matching two unstructured lists of vocabulary used to describe patients at Intensive Care Units in two different hospitals. We show that indeed existing matchers fail on our data. We then discuss the use of background knowledge in ontology matching problems. In particular, we discuss the case where the source and the target ontology are of poor semantics, such as flat lists, and where the background knowledge is of rich semantics, providing extensive descriptions of the properties of the concepts involved. We evaluate our results against a Gold Standard set of matches that we obtained from human experts. © Springer-Verlag Berlin Heidelberg 2006.",
+  abstract  = "Existing ontology matching algorithms use a combination of lexical and structural correspondence between source and target ontologies. We present a realistic case-study where both types of overlap are low: matching two unstructured lists of vocabulary used to describe patients at Intensive Care Units in two different hospitals. We show that indeed existing matchers fail on our data. We then discuss the use of background knowledge in ontology matching problems. In particular, we discuss the case where the source and the target ontology are of poor semantics, such as flat lists, and where the background knowledge is of rich semantics, providing extensive descriptions of the properties of the concepts involved. We evaluate our results against a Gold Standard set of matches that we obtained from human experts.",
   author    = "Zharko Aleksovski and Michel Klein and {Ten Kate}, Warner and {Van Harmelen}, Frank",
   year      = "2006",
   doi       = "10.1007/11891451_18",
@@ -6162,7 +6349,7 @@
 
 @inbook{6b853186f81545c598c481232c118f98,
   title     = "Ontology-based information visualization: Toward semantic web applications",
-  abstract  = "This chapter has demonstrated an elegant way to visually represent ontological data. We have described how the Cluster Map visualization can use ontologies to create expressive information visualizations, with the attractive property that classes and objects that are semantically related are also spatially close in the visualization. Another key aspect of the visualization is that it focuses on visualizing instances rather than ontological models, thereby making it very useful for information retrieval purposes. A number of applications developed in the past few years have been described that prominently incorporate the Cluster Map visualization. Based on these descriptions, we could distinguish a number of generic information retrieval tasks that are well supported by the visualization. These applications prove the usability and usefulness of the Cluster Map in real-life scenarios. Furthermore, these applications show the applicability of the visualization in Semantic Web-based environments, where lightweight ontologies are playing a crucial role in organizing and accessing heterogeneous and decentralized information sources. © 2006 Springer-Verlag London Limited.",
+  abstract  = "This chapter has demonstrated an elegant way to visually represent ontological data. We have described how the Cluster Map visualization can use ontologies to create expressive information visualizations, with the attractive property that classes and objects that are semantically related are also spatially close in the visualization. Another key aspect of the visualization is that it focuses on visualizing instances rather than ontological models, thereby making it very useful for information retrieval purposes. A number of applications developed in the past few years have been described that prominently incorporate the Cluster Map visualization. Based on these descriptions, we could distinguish a number of generic information retrieval tasks that are well supported by the visualization. These applications prove the usability and usefulness of the Cluster Map in real-life scenarios. Furthermore, these applications show the applicability of the visualization in Semantic Web-based environments, where lightweight ontologies are playing a crucial role in organizing and accessing heterogeneous and decentralized information sources.",
   author    = "Christiaan Fluit and Marta Sabou and {Van Harmelen}, Frank",
   year      = "2006",
   doi       = "10.1007/1-84628-290-X_3",
@@ -6188,7 +6375,7 @@
 
 @inbook{7be36f1ce0cd45189c97468ea5ffb6ed,
   title     = "Peer-to -peer and semantic web",
-  abstract  = "Just as the industrial society of the last century depended on natural resources, today's society depends on information. A lack of resources in the industrial society hindered development just as a lack of information hinders development in the information society. Consequently, the exchange of information becomes essential for more and more areas of society: Companies announce their products in online marketplaces and exchange electronic orders with their suppliers; in the medical area patient information is exchanged between general practitioners, hospitals and health insurances; public administration receive tax information from employers and offer online services to their citizens. As a reply to this increasing importance of information exchange, new technologies supporting a fast and accurate information exchange are being developed. Prominent examples of such new technologies are so-called Semantic Web and Peer-to-Peer technologies. These technologies address different aspects of the inherit complexity of information exchange. Semantic Web Technologies address the problem of information complexity by providing advanced support for representing and processing information. Peer-to-Peer technologies, on the other hand, address system complexity by allowing flexible and decentralized information storage and processing. © 2006 Springer-Verlag Berlin Heidelberg.",
+  abstract  = "Just as the industrial society of the last century depended on natural resources, today's society depends on information. A lack of resources in the industrial society hindered development just as a lack of information hinders development in the information society. Consequently, the exchange of information becomes essential for more and more areas of society: Companies announce their products in online marketplaces and exchange electronic orders with their suppliers; in the medical area patient information is exchanged between general practitioners, hospitals and health insurances; public administration receive tax information from employers and offer online services to their citizens. As a reply to this increasing importance of information exchange, new technologies supporting a fast and accurate information exchange are being developed. Prominent examples of such new technologies are so-called Semantic Web and Peer-to-Peer technologies. These technologies address different aspects of the inherit complexity of information exchange. Semantic Web Technologies address the problem of information complexity by providing advanced support for representing and processing information. Peer-to-Peer technologies, on the other hand, address system complexity by allowing flexible and decentralized information storage and processing.",
   author    = "Heiner Stuckenschmidt and {Van Harmelen}, Frank and Wolf Siberski and Steffen Staab",
   year      = "2006",
   doi       = "10.1007/3-540-28347-1_1",
@@ -6201,7 +6388,7 @@
 
 @inbook{5e8f12c030ee4ef3b38f85a725924c7e,
   title     = "Semantic Web research anno 2006: Main streams, popular fallacies, current status and future challenges",
-  abstract  = "In this topical paper we try to give an analysis and overview of the current state of Semantic Web research. We point to different interpretations of the Semantic Web as the reason underlying many controversies, we list (and debunk) four false objections which are often raised against the Semantic Web effort. We discuss the current status of the Semantic Web work by reviewing the current answers to four central research questions that need to be answered, and by surveying the uptake of Semantic Web technology in different application areas. Finally, we try to identify the main challenges facing the Semantic Web community. © Springer-Verlag Berlin Heidelberg 2006.",
+  abstract  = "In this topical paper we try to give an analysis and overview of the current state of Semantic Web research. We point to different interpretations of the Semantic Web as the reason underlying many controversies, we list (and debunk) four false objections which are often raised against the Semantic Web effort. We discuss the current status of the Semantic Web work by reviewing the current answers to four central research questions that need to be answered, and by surveying the uptake of Semantic Web technology in different application areas. Finally, we try to identify the main challenges facing the Semantic Web community.",
   author    = "{Van Harmelen}, Frank",
   year      = "2006",
   isbn      = "354038569X",
@@ -6215,7 +6402,7 @@
 
 @inbook{c98302a518384013910c9263c39e6d7a,
   title     = "Where does it break? or: Why the semantic web is not just {"}research as usual{"}",
-  abstract  = "Work on the Semantic Web is all too often phrased as a technological challenge: how to improve the precision of search engines, how to personalise web-sites, how to integrate weakly-structured data-sources, etc. This suggests that we will be able to realise the Semantic Web by merely applying (and at most refining) the results that are already available from many branches of Computer Science. I will argue in this talk that instead of (just) a technological challenge, the Semantic Web forces us to rethink the foundations of many subfields of Computer Science. This is certainly true for my own field (Knowledge Representation), where the challenge of the Semantic Web continues to break many often silently held and shared assumptions underlying decades of research. With some caution, I claim that this is also true for other fields, such as Machine Learning, Natural Language Processing, Databases, and others. For each of these fields, I will try to identify silently held assumptions which are no longer true on the Semantic Web, prompting a radical rethink of many past results from these fields. © Springer-Verlag Berlin Heidelberg 2006.",
+  abstract  = "Work on the Semantic Web is all too often phrased as a technological challenge: how to improve the precision of search engines, how to personalise web-sites, how to integrate weakly-structured data-sources, etc. This suggests that we will be able to realise the Semantic Web by merely applying (and at most refining) the results that are already available from many branches of Computer Science. I will argue in this talk that instead of (just) a technological challenge, the Semantic Web forces us to rethink the foundations of many subfields of Computer Science. This is certainly true for my own field (Knowledge Representation), where the challenge of the Semantic Web continues to break many often silently held and shared assumptions underlying decades of research. With some caution, I claim that this is also true for other fields, such as Machine Learning, Natural Language Processing, Databases, and others. For each of these fields, I will try to identify silently held assumptions which are no longer true on the Semantic Web, prompting a radical rethink of many past results from these fields.",
   author    = "{Van Harmelen}, Frank",
   year      = "2006",
   isbn      = "3540345442",
@@ -6261,7 +6448,7 @@
 
 @inbook{c1cba8093b6c4b39a1e7594aacf502af,
   title     = "A framework for handling inconsistency in changing ontologies",
-  abstract  = "One of the major problems of large scale, distributed and evolving ontologies is the potential introduction of inconsistencies. In this paper we survey four different approaches to handling inconsistency in DL-based ontologies: consistent ontology evolution, repairing inconsistencies, reasoning in the presence of inconsistencies and multi-version reasoning. We present a common formal basis for all of them, and use this common basis to compare these approaches. We discuss the different requirements for each of these methods, the conditions under which each of them is applicable, the knowledge requirements of the various methods, and the different usage scenarios to which they would apply. © Springer-Verlag Berlin Heidelberg 2005.",
+  abstract  = "One of the major problems of large scale, distributed and evolving ontologies is the potential introduction of inconsistencies. In this paper we survey four different approaches to handling inconsistency in DL-based ontologies: consistent ontology evolution, repairing inconsistencies, reasoning in the presence of inconsistencies and multi-version reasoning. We present a common formal basis for all of them, and use this common basis to compare these approaches. We discuss the different requirements for each of these methods, the conditions under which each of them is applicable, the knowledge requirements of the various methods, and the different usage scenarios to which they would apply.",
   author    = "Peter Haase and {Van Harmelen}, Frank and Zhisheng Huang and Heiner Stuckenschmidt and York Sure",
   year      = "2005",
   doi       = "10.1007/11574620_27",
@@ -6288,7 +6475,7 @@
 
 @inbook{204e70ca3e7e4cd0810a5437326e3cc3,
   title     = "Design patterns for modelling guidelines",
-  abstract  = "It is by now widely accepted that medical guidelines can help to significantly improve the quality of medical care. Unfortunately, constructing the required medical guidelines is a very labour intensive and costly process. The cost of guideline construction would decrease if guidelines could be built, From a set of building blocks that can be reused across guidelines. Such reusable building blocks would also result in more standardised guidelines, facilitating their deployment. The goal of this paper is to identify a collection of patterns that can be used as guideline building blocks. We propose two different methods for finding such patterns We compare the collections of patterns obtained through these two methods, and experimentally validate some of the patterns by checking their usability in the actual modelling of a medical guideline for breastcancer treatment. © Springer-Verlag Berlin Heidelberg 2005.",
+  abstract  = "It is by now widely accepted that medical guidelines can help to significantly improve the quality of medical care. Unfortunately, constructing the required medical guidelines is a very labour intensive and costly process. The cost of guideline construction would decrease if guidelines could be built, From a set of building blocks that can be reused across guidelines. Such reusable building blocks would also result in more standardised guidelines, facilitating their deployment. The goal of this paper is to identify a collection of patterns that can be used as guideline building blocks. We propose two different methods for finding such patterns We compare the collections of patterns obtained through these two methods, and experimentally validate some of the patterns by checking their usability in the actual modelling of a medical guideline for breastcancer treatment.",
   author    = "Radu Serban and {Ten Teije}, Annette and Mar Marcos and Cristina Polo-Conde and Rosenbrand, {Kitty C J G M} and Jolanda Wittenberg and {van Croonenborg}, Joyce",
   year      = "2005",
   isbn      = "3540278311",
@@ -6301,7 +6488,7 @@
 
 @inbook{c0344399fef54f54882db3a71064640f,
   title     = "Formalising medical quality indicators to improve guidelines",
-  abstract  = "Medical guidelines can significantly improve quality of medical care and reduce costs. But how do we get sound and well-structured guidelines? This paper investigates the use of quality indicators that are formulated by medical institutions to evaluate medical care. The main research questions are (i) whether it is possible to formalise those indicators in a specific knowledge representation language for medical guidelines, and (ii) whether it is possible to verify whether such guidelines do indeed satisfy these indicators. In a case study on two real-life guidelines (Diabetes and Jaundice) we have studied 35 indicators, that were developped independently from these guidelines. Of these 25 (71%!) suggested anomalies in one of the guidelines in our case study. © Springer-Verlag Berlin Heidelberg 2005.",
+  abstract  = "Medical guidelines can significantly improve quality of medical care and reduce costs. But how do we get sound and well-structured guidelines? This paper investigates the use of quality indicators that are formulated by medical institutions to evaluate medical care. The main research questions are (i) whether it is possible to formalise those indicators in a specific knowledge representation language for medical guidelines, and (ii) whether it is possible to verify whether such guidelines do indeed satisfy these indicators. In a case study on two real-life guidelines (Diabetes and Jaundice) we have studied 35 indicators, that were developped independently from these guidelines. Of these 25 (71%!) suggested anomalies in one of the guidelines in our case study.",
   author    = "{Van Gendt}, Marjolein and {Ten Teije}, Annette and Radu Serban and {Van Harmelen}, Frank",
   year      = "2005",
   isbn      = "3540278311",
@@ -6337,7 +6524,7 @@
 
 @inbook{4c48cb1e8d0c41189180f415718623c3,
   title     = "Ontology-driven extraction of linguistic patterns for modelling clinical guidelines",
-  abstract  = "Evidence-based clinical guidelines require frequent updates duo to research and technology advances. The quality of guideline updates can be improved if the knowledge underlying the guideline text is explicitly modelled using the so-called guideline patterns (GPs), mappings between a text fragment arid a formal representation of its corresponding medical knowledge. Ontology-driven extraction of linguistic patterns is a method to automatically reconstruct the control knowledge captured in guidelines, which facilitates a more effective modelling and authoring of clinical guidelines. We illustrate by examples the use of a method for generating and searching for linguistic guideline patterns in the text of a guideline for treatment of breast cancer, and provide a general evaluation of usefulness of these patterns in the modelling of the guideline analyzed. © Springer-Verlag Berlin Heidelberg 2005.",
+  abstract  = "Evidence-based clinical guidelines require frequent updates duo to research and technology advances. The quality of guideline updates can be improved if the knowledge underlying the guideline text is explicitly modelled using the so-called guideline patterns (GPs), mappings between a text fragment arid a formal representation of its corresponding medical knowledge. Ontology-driven extraction of linguistic patterns is a method to automatically reconstruct the control knowledge captured in guidelines, which facilitates a more effective modelling and authoring of clinical guidelines. We illustrate by examples the use of a method for generating and searching for linguistic guideline patterns in the text of a guideline for treatment of breast cancer, and provide a general evaluation of usefulness of these patterns in the modelling of the guideline analyzed.",
   author    = "Radu Serban and Teije, {Annette Ten} and {Van Harmelen}, Frank and Mar Marcos and Cristina Polo-Conde",
   year      = "2005",
   isbn      = "3540278311",
@@ -6387,6 +6574,17 @@
 }
 
 
+@article{691b809a87584cfb83812192f176a047,
+  title    = "Reasoning with inconsistent ontologies",
+  abstract = "In this paper we present a framework of reasoning with inconsistent ontologies, in which pre-defined selection functions are used to deal with concept relevance. We examine how the notion of {"}concept relevance{"} can be used for reasoning with inconsistent ontologies. We have implemented a prototype called PION (Processing Inconsistent ONtologies), which is based on a syntactic relevance-based selection function. In this paper, we also report the experiments with PION.",
+  author   = "Zhisheng Huang and {Van Harmelen}, Frank and {Ten Teije}, Annette",
+  year     = "2005",
+  pages    = "454--459",
+  journal  = "IJCAI International Joint Conference on Artificial Intelligence",
+  issn     = "1045-0823",
+}
+
+
 @article{5fe3535446c2476fb38dfb7992e6a912,
   title     = "Semantics-based publication management using RSS and FOAF",
   abstract  = "Listing references to scientific publications on personal or group homepages is a common practice. Doing this in a consistent and structured manner either requires a lot of discipline or a centralized database. Scientific publication, however, is a distributed activity by nature. We present a completely distributed and RDF-based implementation for disseminating references to scientific publications. Our application only uses existing information sources and allows for different output formats, e.g. HTML, RSS and RDF.",
@@ -6410,7 +6608,7 @@
 
 @inbook{a06b18d7a38648cb868ea9081222dfef,
   title     = "Using lexical and logical methods for the alignment of medical terminologies",
-  abstract  = "Standardized medical terminologies are often used for the registration of patient data. In several situations there is a need to align these terminologies to other terminologies. Even when the terminologies cover the same domain, this is often a non-trivial task. The task is even more complicated when the terminology docs not contain much structure. In this paper we describe the initial results of a procedure for mapping a terminology with little or no structure to a structure-rich terminology. This procedure uses the knowledge of the structure-rich terminology and a method for semantic explication of concept descriptions. The first results shows that, when compared to approaches based on syntactic analysis only, the recall can be greatly improved without sacrificing much of the precision. © Springer-Verlag Berlin Heidelberg 2005.",
+  abstract  = "Standardized medical terminologies are often used for the registration of patient data. In several situations there is a need to align these terminologies to other terminologies. Even when the terminologies cover the same domain, this is often a non-trivial task. The task is even more complicated when the terminology docs not contain much structure. In this paper we describe the initial results of a procedure for mapping a terminology with little or no structure to a structure-rich terminology. This procedure uses the knowledge of the structure-rich terminology and a method for semantic explication of concept descriptions. The first results shows that, when compared to approaches based on syntactic analysis only, the recall can be greatly improved without sacrificing much of the precision.",
   author    = "Michel Klein and Zharko Aleksovski",
   year      = "2005",
   doi       = "10.1007/11527770_35",
@@ -6424,7 +6622,7 @@
 
 @article{bf6b51361ff04c95bfd87977043a9ef8,
   title     = "Bibster-a semantics-based bibliographic peer-to-peer system",
-  abstract  = "This paper describes Bibster, a Peer-to-Peer system for exchanging bibliographic metadata among researchers. We show how Bibster exploits ontologies in data-representation, query formulation, query routing, and query result presentation. The Bibster system is freely available and is used by researchers across multiple organizations. © 2004 Published by Elsevier B.V.",
+  abstract  = "This paper describes Bibster, a Peer-to-Peer system for exchanging bibliographic metadata among researchers. We show how Bibster exploits ontologies in data-representation, query formulation, query routing, and query result presentation. The Bibster system is freely available and is used by researchers across multiple organizations.",
   keywords  = "Knowledge management, Peer-to-peer, Semantic web ontologies",
   author    = "Peter Haase and Björn Schnizler and Jeen Broekstra and Marc Ehrig and {Van Harmelen}, Frank and Maarten Menken and Peter Mika and Michal Plechawski and Pawel Pyszlak and Ronny Siebes and Steffen Staab and Christoph Tempich",
   year      = "2004",
@@ -6441,7 +6639,7 @@
 
 @article{ef5224f999734bafbf57098c8ef44c8e,
   title     = "Contextualizing ontologies",
-  abstract  = "Ontologies are shared models of a domain that encode a view which is common to a set of different parties. Contexts are local models that encode a party's subjective view of a domain. In this paper, we show how ontologies can be contextualized, thus acquiring certain useful properties that a pure shared approach cannot provide. We say that an ontology is contextualized or, also, that it is a contextual ontology, when its contents are kept local, and therefore not shared with other ontologies, and mapped with the contents of other ontologies via explicit (context) mappings. The result is Context OWL (C-OWL), a language whose syntax and semantics have been obtained by extending the OWL syntax and semantics to allow for the representation of contextual ontologies. © 2004 Elsevier B.V. All rights reserved.",
+  abstract  = "Ontologies are shared models of a domain that encode a view which is common to a set of different parties. Contexts are local models that encode a party's subjective view of a domain. In this paper, we show how ontologies can be contextualized, thus acquiring certain useful properties that a pure shared approach cannot provide. We say that an ontology is contextualized or, also, that it is a contextual ontology, when its contents are kept local, and therefore not shared with other ontologies, and mapped with the contents of other ontologies via explicit (context) mappings. The result is Context OWL (C-OWL), a language whose syntax and semantics have been obtained by extending the OWL syntax and semantics to allow for the representation of contextual ontologies.",
   keywords  = "Compatibilities, Context OWL, Contextual ontology",
   author    = "Paolo Bouquet and Fausto Giunchiglia and {Van Harmelen}, Frank and Luciano Serafini and Heiner Stuckenschmidt",
   year      = "2004",
@@ -6516,7 +6714,7 @@
 
 @article{d6c8740d8ca54972a7d6a18fbd06255e,
   title     = "Configuration of Web services as parametric design",
-  abstract  = "The configuration of Web services is particularly hard given the heterogeneous, unreliable and open nature of the Web. Furthermore, such composite Web services are likely to be complex services, that will require adaptation for each specific use. Current approaches to Web service configuration are often based on pre/post-condition-style reasoning, resulting in a planning-style approach to service configuration, configuring a composite web service {"}from scratch{"} every time. In this paper, we propose instead a knowledge-intensive brokering approach to the creation of composite Web services. In our approach, we describe a complex Web service as a fixed template, which must be configured for each specific use. Web service configuration can then be regarded as parametric design, in which the parameters of the fixed template have to be instantiated with appropriate component services. During the configuration process, we exploit detailed knowledge about the template and the components, to obtain the required composite web service. We illustrate our proposal by applying it to a specific family of Web services, namely {"}heuristic classification services{"}. We have implemented a proto-type of our knowledge-intensive broker and describe its execution in a concrete scenario. © Springer-Verlag Berlin Heidelberg 2004.",
+  abstract  = "The configuration of Web services is particularly hard given the heterogeneous, unreliable and open nature of the Web. Furthermore, such composite Web services are likely to be complex services, that will require adaptation for each specific use. Current approaches to Web service configuration are often based on pre/post-condition-style reasoning, resulting in a planning-style approach to service configuration, configuring a composite web service {"}from scratch{"} every time. In this paper, we propose instead a knowledge-intensive brokering approach to the creation of composite Web services. In our approach, we describe a complex Web service as a fixed template, which must be configured for each specific use. Web service configuration can then be regarded as parametric design, in which the parameters of the fixed template have to be instantiated with appropriate component services. During the configuration process, we exploit detailed knowledge about the template and the components, to obtain the required composite web service. We illustrate our proposal by applying it to a specific family of Web services, namely {"}heuristic classification services{"}. We have implemented a proto-type of our knowledge-intensive broker and describe its execution in a concrete scenario.",
   author    = "{Ten Teije}, Annette and {Van Harmelen}, Frank and Bob Wielinga",
   year      = "2004",
   volume    = "3257",
@@ -6578,7 +6776,7 @@
 
 @article{cdb20c7e491b4996b8e1352c48fe9d9e,
   title     = "Peer selection in peer-to-peer networks with semantic topologies",
-  abstract  = "Peer-to-Peer systems have proven to be an effective way of sharing data. Modern protocols are able to efficiently route a message to a given peer. However, determining the destination peer in the first place is not always trivial. We propose a model in which peers advertise their expertise in the Peer-to-Peer network. The knowledge about the expertise of other peers forms a semantic topology. Based on the semantic similarity between the subject of a query and the expertise of other peers, a peer can select appropriate peers to forward queries to, instead of broadcasting the query or sending it to a random set of peers. To calculate our semantic similarity measure we make the simplifying assumption that the peers share the same ontology. We evaluate the model in a bibliographic scenario, where peers share bibliographic descriptions of publications among each other. In simulation experiments we show how expertise based peer selection improves the performance of a Peer-to-Peer system with respect to precision, recall and the number of messages. © IFIP International Federation for Information Processing 2004.",
+  abstract  = "Peer-to-Peer systems have proven to be an effective way of sharing data. Modern protocols are able to efficiently route a message to a given peer. However, determining the destination peer in the first place is not always trivial. We propose a model in which peers advertise their expertise in the Peer-to-Peer network. The knowledge about the expertise of other peers forms a semantic topology. Based on the semantic similarity between the subject of a query and the expertise of other peers, a peer can select appropriate peers to forward queries to, instead of broadcasting the query or sending it to a random set of peers. To calculate our semantic similarity measure we make the simplifying assumption that the peers share the same ontology. We evaluate the model in a bibliographic scenario, where peers share bibliographic descriptions of publications among each other. In simulation experiments we show how expertise based peer selection improves the performance of a Peer-to-Peer system with respect to precision, recall and the number of messages.",
   author    = "Peter Haase and Ronny Siebes and {Van Harmelen}, Frank",
   year      = "2004",
   volume    = "3226",
@@ -6609,10 +6807,23 @@
   author    = "Michael Balser and Oscar Coltell and {van Croonenborg}, Joyce and Christoph Duelli and {van Harmelen}, Frank and Albert Jovell and Peter Lucas and Mar Marcos and Silvia Miksch and Wolfgang Reif and Rosenbrand, {Kitty C J G M} and Andreas Seyfang and {ten Teije}, Annette",
   year      = "2004",
   volume    = "101",
-  pages     = "103--7",
+  pages     = "103--107",
   journal   = "Studies in Health Technology and Informatics",
   issn      = "0926-9630",
   publisher = "IOS Press",
+}
+
+
+@inbook{32287d7d1b274cfebe15445a6dfebf85,
+  title     = "Reaching diagnostic agreement in multi-agent diagnosis",
+  abstract  = "We consider the problem of finding a commonly agreed upon diagnosis for errors observed in a system monitored by a number of different agents. Each agent is assumed to have its own specialized (expert) view on the system. Collectively, the agents have to agree on one or more diagnoses based on their views. Reaching an agreement is complicated by the fact that the knowledge of different specialists need not always be correct.",
+  author    = "Nico Roos and {Ten Teije}, Annette and Cees Witteveen",
+  year      = "2004",
+  isbn      = "1581138644",
+  volume    = "3",
+  pages     = "1256--1257",
+  editor    = "N.R. Jennings and C. Sierra and L. Sonenberg and M. Tambe",
+  booktitle = "Proceedings of the Third International Joint Conference on Autonomous Agents and Multiagent Systems, AAMAS 2004",
 }
 
 
@@ -6628,7 +6839,7 @@
 
 @article{642c6cb423f44d04a5308009b87e04e0,
   title     = "Structure-Based Partitioning of Large Concept Hierarchies",
-  abstract  = "The increasing awareness of the benefits of ontologies for information processing has lead to the creation of a number of large ontologies about real-world domains. The size of these ontologies and their monolithic character cause serious problems in handling them. In other areas, e.g. software engineering, these problems are tackled by partitioning monolithic entities into sets of meaningful and mostly self-contained modules. In this paper, we suggest a similar approach for ontologies. We propose a method for automatically partitioning large ontologies into smaller modules based on the structure of the class hierarchy. We show that the structure-based method performs surprisingly well on real-world ontologies. We support this claim by experiments carried out on real-world ontologies including SUMO and the NCI cancer ontology. The results of these experiments are available online at http: //swserver. cs .vu.nl/partitioning/. © Springer-Verlag 2004.",
+  abstract  = "The increasing awareness of the benefits of ontologies for information processing has lead to the creation of a number of large ontologies about real-world domains. The size of these ontologies and their monolithic character cause serious problems in handling them. In other areas, e.g. software engineering, these problems are tackled by partitioning monolithic entities into sets of meaningful and mostly self-contained modules. In this paper, we suggest a similar approach for ontologies. We propose a method for automatically partitioning large ontologies into smaller modules based on the structure of the class hierarchy. We show that the structure-based method performs surprisingly well on real-world ontologies. We support this claim by experiments carried out on real-world ontologies including SUMO and the NCI cancer ontology. The results of these experiments are available online at http: //swserver. cs .vu.nl/partitioning/.",
   author    = "Heiner Stuckenschmidt and Michel Klein",
   year      = "2004",
   doi       = "10.1007/978-3-540-30475-3_21",
@@ -6723,7 +6934,7 @@
 
 @article{39a06dba90094459ad5e1f75241fa348,
   title     = "C-OWL: Contextualizing ontologies",
-  abstract  = "Ontologies are shared models of a domain that encode a view which is common to a set of different parties. Contexts are local models that encode a party's subjective view of a domain. In this paper we show how ontologies can be contextualized, thus acquiring certain useful properties that a pure shared approach cannot provide. We say that an ontology is contextualized or, also, that it is a contextual ontology, when its contents are kept local, and therefore not shared with other ontologies, and mapped with the contents of other ontologies via explicit (context) mappings. The result is Context OWL (C-OWL), a language whose syntax and semantics have been obtained by extending the OWL syntax and semantics to allow for the representation of contextual ontologies. © Springer-Verlag Berlin Heidelberg 2003.",
+  abstract  = "Ontologies are shared models of a domain that encode a view which is common to a set of different parties. Contexts are local models that encode a party's subjective view of a domain. In this paper we show how ontologies can be contextualized, thus acquiring certain useful properties that a pure shared approach cannot provide. We say that an ontology is contextualized or, also, that it is a contextual ontology, when its contents are kept local, and therefore not shared with other ontologies, and mapped with the contents of other ontologies via explicit (context) mappings. The result is Context OWL (C-OWL), a language whose syntax and semantics have been obtained by extending the OWL syntax and semantics to allow for the representation of contextual ontologies.",
   author    = "Paolo Bouquet and Fausto Giunchiglia and {Van Harmelen}, Frank and Luciano Serafini and Heiner Stuckenschmidt",
   year      = "2003",
   volume    = "2870",
@@ -6822,7 +7033,7 @@
 
 @article{b5075dbf07fa45fa8173d5898b9a8972,
   title     = "Enabling knowledge representation on the Web by extending RDF Schema",
-  abstract  = "Recently, a widespread interest has emerged in using ontologies on the Web. Resource Description Framework Schema (RDFS) is a basic tool that enables users to define vocabulary, structure and constraints for expressing meta data about Web resources. However, it includes no provisions for formal semantics, and its expressivity is not sufficient for full-fledged ontological modeling and reasoning. In this paper, we will show how RDFS can be extended to include a more expressive knowledge representation language. That, in turn, would enrich it with the required additional expressivity and the semantics of that language. We do this by describing the ontology language Ontology Inference Layer (OIL) as an extension of RDFS. An important advantage to our approach is that it ensures maximal sharing of meta data on the Web: even partial interpretation of an OIL ontology by less semantically aware processors will yield a correct partial interpretation of the meta data. © 2002 Elsevier Science Ltd. All rights reserved.",
+  abstract  = "Recently, a widespread interest has emerged in using ontologies on the Web. Resource Description Framework Schema (RDFS) is a basic tool that enables users to define vocabulary, structure and constraints for expressing meta data about Web resources. However, it includes no provisions for formal semantics, and its expressivity is not sufficient for full-fledged ontological modeling and reasoning. In this paper, we will show how RDFS can be extended to include a more expressive knowledge representation language. That, in turn, would enrich it with the required additional expressivity and the semantics of that language. We do this by describing the ontology language Ontology Inference Layer (OIL) as an extension of RDFS. An important advantage to our approach is that it ensures maximal sharing of meta data on the Web: even partial interpretation of an OIL ontology by less semantically aware processors will yield a correct partial interpretation of the meta data.",
   keywords  = "DAML, Knowledge representation, OIL, Ontologies, RDF, Semantic Web",
   author    = "Jeen Broekstra and Michel Klein and Stefan Decker and Dieter Fensel and {Van Harmelen}, Frank and Ian Horrocks",
   year      = "2002",
@@ -6867,7 +7078,7 @@
 
 @inbook{3041593d264c478884e38f11e6e6e8fa,
   title     = "Approximating terminological queries",
-  abstract  = "Current proposals for languages to encode terminological knowledge in intelligent systems support logical reasoning for answering user queries about objects and classes. An application of these languages on the World Wide Web, however, is hampered by the limitations of logical reasoning in terms ofefficiency and flexibility. In this paper we describe, how techniques from approximate reasoning can be used to overcome these problems. We discuss terminological knowledge and approximate reasoning in general and show the benefits ofapproximate reasoning using the example ofbuilding and maintaining semantic catalogues that can be used to query resource locations based on object classes. © Springer-Verlag Berlin Heidelberg 2002.",
+  abstract  = "Current proposals for languages to encode terminological knowledge in intelligent systems support logical reasoning for answering user queries about objects and classes. An application of these languages on the World Wide Web, however, is hampered by the limitations of logical reasoning in terms ofefficiency and flexibility. In this paper we describe, how techniques from approximate reasoning can be used to overcome these problems. We discuss terminological knowledge and approximate reasoning in general and show the benefits ofapproximate reasoning using the example ofbuilding and maintaining semantic catalogues that can be used to query resource locations based on object classes.",
   author    = "Heiner Stuckenschmidt and {Van Harmelen}, Frank",
   year      = "2002",
   isbn      = "3540000747",
@@ -6937,7 +7148,7 @@
 
 @inbook{49ce1d5b12a640598767d522cd113302,
   title     = "Sesame: A generic architecture for storing and querying RDF and RDF Schema",
-  abstract  = "RDF and RDF Schema are two W3C standards aimed at enriching the Web with machine-processable semantic data. We have developed Sesame, an architecture for efficient storage and expressive querying of large quantities of metadata in RDF and RDF Schema. Sesame's design and implementation are independent from any specific storage device. Thus, Sesame can be deployed on top of a variety of storage devices, such as relational databases, triple stores, or object-oriented databases, without having to change the query engine or other functional modules. Sesame offers support for concurrency control, independent export of RDF and RDFS information and a query engine for RQL, a query language for RDF that offers native support for RDF Schema semantics. We present an overview of Sesame as a generic architecture, as well as its implementation and our first experiences with this implementation. © Springer-Verlag Berlin Heidelberg 2002.",
+  abstract  = "RDF and RDF Schema are two W3C standards aimed at enriching the Web with machine-processable semantic data. We have developed Sesame, an architecture for efficient storage and expressive querying of large quantities of metadata in RDF and RDF Schema. Sesame's design and implementation are independent from any specific storage device. Thus, Sesame can be deployed on top of a variety of storage devices, such as relational databases, triple stores, or object-oriented databases, without having to change the query engine or other functional modules. Sesame offers support for concurrency control, independent export of RDF and RDFS information and a query engine for RQL, a query language for RDF that offers native support for RDF Schema semantics. We present an overview of Sesame as a generic architecture, as well as its implementation and our first experiences with this implementation.",
   author    = "Jeen Broekstra and Arjohn Kampman and {Van Harmelen}, Frank",
   year      = "2002",
   isbn      = "3540437606",
@@ -7083,7 +7294,7 @@
 
 @article{b4cbf2d229bc4a48b95f11cb0062e82c,
   title     = "Construction of problem-solving methods as parametric design",
-  abstract  = "The knowledge-engineering literature contains a number of approaches for constructing or selecting problem solvers. Some of these approaches are based on indexing and selecting a problem solver from a library, others are based on a knowledge acquisition process, or are based on search-strategies. None of these approaches sees constructing a problem solver as a configuration task that could be solved with an appropriate configuration method. We introduce a representation of the functionality of problem-solving methods that allows us to view the construction of problem solvers as a configuration problem, and specifically as a parametric design problem. From the available methods for parametric design, we use propose-critique-modify for the automated configuration of problem-solving methods. We illustrate this approach by a scenario in a small car domain example. © 1998 Academic Press.",
+  abstract  = "The knowledge-engineering literature contains a number of approaches for constructing or selecting problem solvers. Some of these approaches are based on indexing and selecting a problem solver from a library, others are based on a knowledge acquisition process, or are based on search-strategies. None of these approaches sees constructing a problem solver as a configuration task that could be solved with an appropriate configuration method. We introduce a representation of the functionality of problem-solving methods that allows us to view the construction of problem solvers as a configuration problem, and specifically as a parametric design problem. From the available methods for parametric design, we use propose-critique-modify for the automated configuration of problem-solving methods. We illustrate this approach by a scenario in a small car domain example.",
   author    = "{Ten Teije}, A. and {Van Harmelen}, F. and Schreiber, {A. Th} and Wielinga, {B. J.}",
   year      = "1998",
   month     = "10",
@@ -7139,7 +7350,7 @@
 
 @article{6dd3f5c9499c462fab1d070bc644f5e2,
   title     = "Applying rule-base anomalies to KADS inference structures",
-  abstract  = "The literature on validation and verification of knowledge-based systems contains a catalogue of anomalies for knowledge-based systems, such as redundant, contradictory or deficient knowledge. Detecting such anomalies is a method for verifying knowledge-based systems. Unfortunately, the traditional formulation of the anomalies in the literature is very specific to a rule-based knowledge representation, which greatly restricts their applicability. In this paper, we show how the traditional anomalies can be reinterpreted in terms of conceptual models (in particular KADS inference structures). For this purpose, we present a formalisation of KADS inference structures which enables us to apply the traditional rule-base anomalies to these inference structures. This greatly improves the usefulness of the anomalies, since they can now be applied to a much wider class of knowledge-based systems. Besides this reformulation and wider applicability of the traditional anomalies, further contributions of this paper are a novel formalisation of KADS inference structures and a number of improvements to the existing formalisation of the traditional anomalies. © 1997 Elsevier Science B.V.",
+  abstract  = "The literature on validation and verification of knowledge-based systems contains a catalogue of anomalies for knowledge-based systems, such as redundant, contradictory or deficient knowledge. Detecting such anomalies is a method for verifying knowledge-based systems. Unfortunately, the traditional formulation of the anomalies in the literature is very specific to a rule-based knowledge representation, which greatly restricts their applicability. In this paper, we show how the traditional anomalies can be reinterpreted in terms of conceptual models (in particular KADS inference structures). For this purpose, we present a formalisation of KADS inference structures which enables us to apply the traditional rule-base anomalies to these inference structures. This greatly improves the usefulness of the anomalies, since they can now be applied to a much wider class of knowledge-based systems. Besides this reformulation and wider applicability of the traditional anomalies, further contributions of this paper are a novel formalisation of KADS inference structures and a number of improvements to the existing formalisation of the traditional anomalies.",
   keywords  = "Anomalies, Inference structures, Knowledge-based systems, Validation, Verification",
   author    = "{Van Harmelen}, Frank",
   year      = "1997",
@@ -7218,7 +7429,7 @@
 
 @article{daf4c16d543c4ce0aec82cc5f52ece68,
   title     = "Structure-preserving specification languages for knowledge-based systems",
-  abstract  = "Much of the work on validation and verification of knowledge based systems (KBSs) has been done in terms of implementation languages (mostly rule-based languages). Recent papers have argued that it is advantageous to do validation and verification in terms of a more abstract and formal specification of the system. However, constructing such formal specifications is a difficult task. This paper proposes the use of formal specification languages for KBS-development that are closely based on the structure of informal knowledge-models. The use of such formal languages has as advantages that (i) we can give strong support for the construction of a formal specification, namely on the basis of the informal description of the system; and (ii) we can use the structural correspondence to verify that the formal specification does indeed capture the informally stated requirements. © 1996 Academic Press Limited.",
+  abstract  = "Much of the work on validation and verification of knowledge based systems (KBSs) has been done in terms of implementation languages (mostly rule-based languages). Recent papers have argued that it is advantageous to do validation and verification in terms of a more abstract and formal specification of the system. However, constructing such formal specifications is a difficult task. This paper proposes the use of formal specification languages for KBS-development that are closely based on the structure of informal knowledge-models. The use of such formal languages has as advantages that (i) we can give strong support for the construction of a formal specification, namely on the basis of the informal description of the system; and (ii) we can use the structural correspondence to verify that the formal specification does indeed capture the informally stated requirements.",
   author    = "{Van Harmelen}, Frank and Manfred Aben",
   year      = "1996",
   month     = "2",
